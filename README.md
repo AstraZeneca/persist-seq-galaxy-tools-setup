@@ -8,6 +8,8 @@ The repo has mainly two kind of files, the main YAML files with the tools and th
 
 Does the tool has a Galaxy wrapper in the [Galaxy Toolshed](https://toolshed.g2.bx.psu.edu/)? If yes, simply add the tool to the YAML file in the section where it should be installed, and make a pull request with the change to this repo via the Galaxy UI. If not, keep reading.
 
+This README serves as a relatively barebones indication on how to do add new tools to give an overview. We recommend getting more details from the excellent [tool writing tutorial](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html) from the Galaxy Training Network. 
+
 ## Tools dependencies
 
 Galaxy wrappers will need to resolve dependencies to specific tools (ie. a wrapper using elements from Seurat needs to resolve dependencies that enable it to use Seurat).
@@ -62,4 +64,4 @@ git pull iuc main
 git checkout -b my-new-tool # to create a new branch based on the iuc/main branch # only needed once per tool
 ```
 
-6. Start coding on your editor or on VSCode. You can get some initial boilerplate initially through ChatGPT or other AI assistants, by asking something like "Write a Galaxy tool wrapper for tool XYZ". The main reference for tool wrapping is the [Galaxy Tool XML schema](https://docs.galaxyproject.org/en/latest/dev/schema.html). The VSCode extensions will help you run planemo tests for the tool. You can also find useful resources at https://galaxyproject.org/tools/, at https://planemo.readthedocs.io/en/latest/writing.html, and the excellent [tool writing tutorial](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html) from the Galaxy Training Network.
+6. Start coding on your editor or on VSCode. You can get some initial boilerplate initially through ChatGPT or other AI assistants, by asking something like "Write a Galaxy tool wrapper for tool XYZ". The main reference for tool wrapping is the [Galaxy Tool XML schema](https://docs.galaxyproject.org/en/latest/dev/schema.html). The VSCode extensions will help you run planemo tests for the tool. You can also find useful resources at https://galaxyproject.org/tools/, at https://planemo.readthedocs.io/en/latest/writing.html, and the excellent [tool writing tutorial](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html) from the Galaxy Training Network. Additional sources of help are the [Galaxy Gitter](https://gitter.im/galaxyproject/Lobby) and the [Galaxy Development mailing list](https://lists.galaxyproject.org/listinfo/dev).
