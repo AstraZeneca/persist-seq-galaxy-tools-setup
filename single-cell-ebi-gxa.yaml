@@ -159,6 +159,10 @@ tools:
   - name: seurat_create_seurat_object
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_seurat_tools'
+    
+  - name: seurat_convert
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_seurat_tools'
 
   - name: seurat_dim_plot
     owner: ebi-gxa
