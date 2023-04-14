@@ -811,6 +811,11 @@ tools:
   revisions:
   - f8865ae30723
   tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_convert
+  owner: ebi-gxa
+  revisions:
+  - 970696a7ae0b
+  tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_dim_plot
   owner: ebi-gxa
   revisions:
