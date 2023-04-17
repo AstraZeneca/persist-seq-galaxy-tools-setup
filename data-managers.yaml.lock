@@ -7,6 +7,7 @@ tools:
   - 1c0f8e9d87c6
   - 76672b83d42d
   - 847c9ef56a52
+  - 9dd107db92c2
   - d1d5feb31804
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -30,12 +31,14 @@ tools:
   - 8eac26f44d29
   - a04cebcd77f4
   - d210e1f185bd
+  - d74c740bdb25
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_kallisto_index_builder
   owner: iuc
   revisions:
   - 18e2dd472525
+  - 4c7ebbad42cf
   - 6843a0db2da0
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -47,11 +50,13 @@ tools:
   - 6524e573d9c2
   - 6a6a2e4cc222
   - 744f607fac50
+  - f7b5ea5d11d7
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_salmon_index_builder
   owner: iuc
   revisions:
+  - 566207ae614c
   - 57274fe5e01a
   - 6437fc47878f
   - 6b0f2bdcc1b7
@@ -72,6 +77,7 @@ tools:
   - a225487bf618
   - c520a52b5174
   - d3879aceba04
+  - d63c1442407f
   - f5eb9afa8f8a
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
