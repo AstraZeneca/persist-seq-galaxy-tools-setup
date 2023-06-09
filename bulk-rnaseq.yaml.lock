@@ -194,6 +194,7 @@ tools:
   revisions:
   - 3d0c7bdf12f5
   - 3e1cdf5406db
+  - 5ec9f6bceaee
   - e7b2202befea
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
