@@ -71,10 +71,33 @@ def main():
         gi.base_url + "/api/container_resolvers/toolbox"
     ).json()
 
+    # if limit_tools is set to True, we limit the number of tools to be downloaded to the ones
+    # used in the last week.
+    unique_tool_ids = set()
+    if args.limit_tools:
+        today = datetime.now()
+        # set min date range in YYYY-MM-DD format
+        min_date = (today - timedelta(days=args.time)).strftime("%Y-%m-%d")
+        # set max date range in YYYY-MM-DD format
+        max_date = today.strftime("%Y-%m-%d")
+        jobs = gi.jobs.get_jobs(date_range_min=min_date, date_range_max=max_date)
+        # get unique tool ids in the jobs dictionary
+        for job in jobs:
+            if "tool_id" in job:
+                unique_tool_ids.add(job["tool_id"])
+        logging.info(
+            f"Found {len(unique_tool_ids)} unique tools used in the last {args.time} days."
+        )
+
     # We keep a container url to tools, since the
     # RAW API call to download a container requires a tool identifier (but only one).
     container2tool_id = dict()
     for tool_deps in tools_deps:
+        if args.limit_tools and tool_deps["tool_id"] not in unique_tool_ids:
+            logging.info(
+                f"Tool {tool_deps['tool_id']} is not used in the last {args.time} days. Skipping..."
+            )
+            continue
         if "container_description" in tool_deps["status"]:
             if "identifier" in tool_deps["status"]["container_description"]:
                 if tool_deps["status"]["container_description"][
@@ -84,39 +107,20 @@ def main():
                         tool_deps["status"]["container_description"]["identifier"]
                     ] = tool_deps["tool_id"]
 
-    # if limit_tools is set to True, we limit the number of tools to be downloaded to the ones
-    # used in the last week.
-    if args.limit_tools:
-        today = datetime.now()
-        # set min date range in YYYY-MM-DD format
-        min_date = (today - timedelta(days=args.time)).strftime("%Y-%m-%d")
-        # set max date range in YYYY-MM-DD format
-        max_date = today.strftime("%Y-%m-%d")
-        jobs = gi.jobs.get_jobs(date_range_min=min_date, date_range_max=max_date)
-        # get unique tool ids in the jobs dictionary
-        unique_tool_ids = set()
-        for job in jobs:
-            if "tool_id" in job:
-                unique_tool_ids.add(job["tool_id"])
-
     downloads = 0
     for cont in container2tool_id:
         logging.info(f"Retrieving container {cont}...")
         tool_id = container2tool_id[cont]
-        if args.limit_tools and tool_id not in unique_tool_ids:
-            logging.info(
-                f"Tool {tool_id} is not used in the last {args.time} days. Skipping..."
-            )
-            continue
         try:
             if not args.dry_run:
                 result = gi.make_post_request(
                     url=gi.base_url + "/api/container_resolvers/toolbox/install",
                     payload={"tool_ids": [tool_id]},
                 )
+                logging.debug(result)
             else:
                 logging.info(
-                    f"Tool {tool_id} would be downloaded, but running on dry run mode."
+                    f"Conatainer {cont} would be downloaded, but running on dry run mode."
                 )
         except ConnectionError as e:
             logging.warning(
