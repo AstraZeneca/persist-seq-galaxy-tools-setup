@@ -61,6 +61,7 @@ tools:
 - name: salmon
   owner: bgruening
   revisions:
+  - 15cd64d7c58b
   - 49121db48873
   - 6b0ba6de1424
   - 7fdb9d1591e2
@@ -133,6 +134,7 @@ tools:
   - 5e6237d58b0c
   - 653e89d73fc4
   - 69ebb7f46e45
+  - 6ea73833cf67
   - 7068f48d0ef9
   - 751a694ec620
   - 83c7d564b128
