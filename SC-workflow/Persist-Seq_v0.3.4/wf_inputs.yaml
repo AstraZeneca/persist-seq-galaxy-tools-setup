@@ -1,0 +1,10 @@
+matrix:
+  library_id: {matrix_id}
+genes:
+  library_id: {genes_id}
+barcodes:
+  library_id: {barcodes_id}
+cellmeta:
+  library_id: {cellmeta_id}
+genemeta:
+  library_id: {genemeta_id}
