@@ -259,6 +259,7 @@ tools:
 - name: fastq_quality_filter
   owner: devteam
   revisions:
+  - 64e9a6afdd0c
   - 7b4468117008
   - ce9cd02d5b88
   tool_panel_section_label: RNA-Seq
@@ -266,6 +267,7 @@ tools:
 - name: fastx_artifacts_filter
   owner: devteam
   revisions:
+  - 529bccd5e4a1
   - d5e9e83cd3d8
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
