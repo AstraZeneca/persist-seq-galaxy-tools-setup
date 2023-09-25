@@ -1,5 +1,9 @@
 # https://raw.githubusercontent.com/usegalaxy-eu/usegalaxy-eu-tools/cb6d5ae0800990fa5756646c7f466df6ee8a0ad5/single-cell-ebi-gxa.yaml
 tools:
+  - name: decoupler_pseudobulk
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_decoupler'
+
   - name: dropletutils_read_10x
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_utils_viz'
