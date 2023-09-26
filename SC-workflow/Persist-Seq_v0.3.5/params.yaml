@@ -1,0 +1,6 @@
+Ribosomal_field_in_var: 'mito'
+sample_variable: {sample_variable}
+batch_variable: ''
+remove ribosomal genes: ''
+representation: 'X_pca'
+cell_type_field: 'NO_CELLTYPE_FIELD'
