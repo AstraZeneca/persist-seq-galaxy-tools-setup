@@ -7,6 +7,7 @@ tools:
 - name: ega_download_client
   owner: iuc
   revisions:
+  - 6cb20e130473
   - 8bbe09a52904
   - 9564758e8638
   - caf213d51d6c
