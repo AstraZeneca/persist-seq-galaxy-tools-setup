@@ -131,3 +131,7 @@ tools:
   owner: ebi-gxa
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: oncoenrichr
+  owner: sigven
+  tool_panel_section_label: Onco Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
