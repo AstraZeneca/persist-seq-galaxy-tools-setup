@@ -336,3 +336,9 @@ tools:
   - 6e13890afaef
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: oncoenrichr
+  owner: sigven
+  revisions:
+  - 023155e2e66c
+  tool_panel_section_label: Onco Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
