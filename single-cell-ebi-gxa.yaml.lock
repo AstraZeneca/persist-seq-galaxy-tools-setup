@@ -4,6 +4,7 @@ tools:
   revisions:
   - 046d8ff974ff
   - 130e25d3ce92
+  - 4fa5f370599f
   - 59a7f3f83aec
   tool_panel_section_id: hca_sc_decoupler
 - name: dropletutils_read_10x
