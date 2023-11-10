@@ -4,6 +4,10 @@ tools:
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_decoupler'
 
+  - name: score_genes_aucell
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_decoupler'
+
   - name: dropletutils_read_10x
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_utils_viz'
