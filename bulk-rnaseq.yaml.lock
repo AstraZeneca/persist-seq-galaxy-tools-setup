@@ -325,6 +325,7 @@ tools:
   revisions:
   - 0dbf49c414ae
   - 5826298f6a73
+  - 6be888be75f9
   tool_panel_section_label: SAM/BAM
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastq_quality_trimmer
