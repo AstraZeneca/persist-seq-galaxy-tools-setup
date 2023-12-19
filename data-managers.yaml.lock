@@ -50,6 +50,7 @@ tools:
   - 6524e573d9c2
   - 6a6a2e4cc222
   - 744f607fac50
+  - ac682ae1c557
   - f7b5ea5d11d7
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
