@@ -199,6 +199,7 @@ tools:
 - name: htseq_count
   owner: lparsons
   revisions:
+  - 4418229c501e
   - 67b0b160903a
   - 7f5a8d427b39
   - 916cb26bd9d3
