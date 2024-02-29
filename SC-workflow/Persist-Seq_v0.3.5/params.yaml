@@ -4,5 +4,3 @@ batch_variable: ''
 remove ribosomal genes: ''
 representation: 'X_pca'
 cell_type_field: 'NO_CELLTYPE_FIELD'
-G2M phase genes ENSEMBL_ID: {g2m_genes}
-S phase genes ENSEMBL_ID: {s_genes}
