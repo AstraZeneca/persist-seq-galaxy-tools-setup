@@ -886,6 +886,7 @@ tools:
 - name: seurat_convert
   owner: ebi-gxa
   revisions:
+  - 834f7d8e5b4c
   - 970696a7ae0b
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_dim_plot
@@ -893,6 +894,7 @@ tools:
   revisions:
   - 316623eb59bd
   - 34f8d81f9d75
+  - 64174ac50d78
   - 6e26ee99fdfc
   - cfc3d8ee3a64
   - daeca8f7a26e
@@ -902,6 +904,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 249392cd0d99
+  - 36221da750e8
   - 80eec773c961
   - 8c2b1d2659df
   - 9e1c4d2d0776
@@ -916,6 +919,7 @@ tools:
   - c1848daebad1
   - c2efa04fb03f
   - c4b984347138
+  - cd9f564bd63f
   - ebf7286c8b97
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_find_clusters
@@ -926,11 +930,13 @@ tools:
   - 8ea738667314
   - 8ed848ef86fd
   - bdabb6af06e4
+  - d541e9e62beb
   - eefaffdcd441
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_find_markers
   owner: ebi-gxa
   revisions:
+  - 07fc9f4841b3
   - 203dcb6f2faf
   - 3dd20b758756
   - 4039a99ae846
@@ -945,12 +951,14 @@ tools:
   - 5a79dc04aafe
   - 5be60722113a
   - 8f67188f11c4
+  - 948fc0276b4f
   - a56efad05337
   - a6077346f869
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_normalise_data
   owner: ebi-gxa
   revisions:
+  - 3f49bc9c9213
   - 48174ec556de
   - 619fead82856
   - 778e1a98055f
@@ -967,11 +975,13 @@ tools:
   - 301cf1b4b43d
   - 893ea1e1eed3
   - 948ce48561f9
+  - f5db0e853f57
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_run_pca
   owner: ebi-gxa
   revisions:
   - 3fd59cdcb477
+  - 8ded486b0014
   - 9547ebb03f6f
   - a54f3400a885
   - c4607a42113e
@@ -982,6 +992,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 050fe6894b74
+  - 0db997e4a81d
   - 13a27436f8ee
   - 2d294978b152
   - 3aea769deab1
@@ -995,6 +1006,7 @@ tools:
   - 1a8e93921f01
   - 3d0bfc2a233e
   - 4147dc085d45
+  - 5e9ba303f9e1
   - 6166efaeb4a6
   - d2f6eac0ad42
   tool_panel_section_id: hca_sc_seurat_tools
@@ -1005,6 +1017,7 @@ tools:
   - 4fff8ad1c76d
   - 99d628557c47
   - ab622ffd7c7f
+  - ba897c57bdd9
   - bba8b14264c2
   tool_panel_section_id: hca_sc_seurat_tools
 - name: monocle3_create
