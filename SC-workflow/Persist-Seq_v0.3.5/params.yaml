@@ -1,6 +1,6 @@
 Ribosomal_field_in_var: '{ribo_field}'
 sample_variable: {sample_variable}
 batch_variable: ''
-remove ribosomal genes: 'remove_ribo_genes'
+remove ribosomal genes: '{remove_ribo_genes}'
 representation: 'X_pca'
 cell_type_field: 'NO_CELLTYPE_FIELD'
