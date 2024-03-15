@@ -8,6 +8,10 @@ tools:
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_decoupler'
 
+  - name: decoupler_pathway_inference
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_decoupler'
+
   - name: dropletutils_read_10x
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_utils_viz'
