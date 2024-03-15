@@ -137,6 +137,7 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
+  - 1ec814014652
   - 248f85ff0733
   - 4317d3cb6cba
   - 494b2ec08162
