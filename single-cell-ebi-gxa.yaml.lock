@@ -6,13 +6,20 @@ tools:
   - 130e25d3ce92
   - 4fa5f370599f
   - 59a7f3f83aec
+  - 893ff9213a34
   - f321c60167d4
   tool_panel_section_id: hca_sc_decoupler
 - name: score_genes_aucell
   owner: ebi-gxa
   revisions:
   - 1e8697931d73
+  - c700f0381e84
   - e024d8280886
+  tool_panel_section_id: hca_sc_decoupler
+- name: decoupler_pathway_inference
+  owner: ebi-gxa
+  revisions:
+  - 77d680b36e23
   tool_panel_section_id: hca_sc_decoupler
 - name: dropletutils_read_10x
   owner: ebi-gxa
