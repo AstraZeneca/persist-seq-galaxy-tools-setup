@@ -77,6 +77,7 @@ tools:
   - cc05793bb896
   - e3d32471da11
   - ebab418107f5
+  - f4d5237a84f6
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cutadapt
