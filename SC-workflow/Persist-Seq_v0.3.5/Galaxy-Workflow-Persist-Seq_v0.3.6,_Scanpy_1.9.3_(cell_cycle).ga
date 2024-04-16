@@ -14,7 +14,7 @@
         }
     ],
     "format-version": "0.1",
-    "name": "Persist-Seq v0.3.5, Scanpy 1.9.3 (cell cycle)",
+    "name": "Persist-Seq v0.3.6, Scanpy 1.9.3 (cell cycle)",
     "steps": {
         "0": {
             "annotation": "",
