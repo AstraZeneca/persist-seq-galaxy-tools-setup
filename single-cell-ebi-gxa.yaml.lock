@@ -6,6 +6,7 @@ tools:
   - 130e25d3ce92
   - 4fa5f370599f
   - 59a7f3f83aec
+  - 68a2b5445558
   - 893ff9213a34
   - ed2a77422e00
   - f321c60167d4
@@ -14,6 +15,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 1e8697931d73
+  - 515ac51db6e5
   - c700f0381e84
   - e024d8280886
   - e887a7e8c5b4
@@ -22,6 +24,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 77d680b36e23
+  - 82b7cd3e1bbd
   - e9b06a8fb73a
   tool_panel_section_id: hca_sc_decoupler
 - name: dropletutils_read_10x
