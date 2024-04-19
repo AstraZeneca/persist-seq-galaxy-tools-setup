@@ -1,6 +1,6 @@
 {
     "a_galaxy_workflow": "true",
-    "annotation": "",
+    "annotation": "Persist-Seq v0.3.6, Scanpy 1.9.3 (cell cycle)",
     "creator": [
         {
             "class": "Person",
@@ -14,7 +14,7 @@
         }
     ],
     "format-version": "0.1",
-    "name": "Persist-Seq v0.3.6, Scanpy 1.9.3 (cell cycle)",
+    "name": "Persist-Seq v0.3.6",
     "steps": {
         "0": {
             "annotation": "",
@@ -825,7 +825,7 @@
                 {
                     "label": "Scanpy Plot Scrublet on input dataset(s): Scrublet plot",
                     "output_name": "output_png",
-                    "uuid": "c7bb87df-e00e-4be8-9ef6-bce9e10eb024"
+                    "uuid": "708058b4-2818-49fb-8167-0f8ac314b112"
                 }
             ]
         },
@@ -997,17 +997,17 @@
                 {
                     "label": null,
                     "output_name": "genes_10x",
-                    "uuid": "60904972-a43a-480e-846b-c546f0f6d1a8"
+                    "uuid": "6907113c-a2e5-4b7b-812e-783ed54a6157"
                 },
                 {
                     "label": null,
                     "output_name": "barcodes_10x",
-                    "uuid": "d0b0a98c-e8e0-4ff3-91ac-aefbe627f82c"
+                    "uuid": "785437a6-7007-4593-8a96-c12eb6fc34d7"
                 },
                 {
                     "label": null,
                     "output_name": "matrix_10x",
-                    "uuid": "105dd4b2-04c8-41f1-8787-dab16e4bd8fa"
+                    "uuid": "a708ac0c-fead-4edc-be50-86f28a0a2622"
                 }
             ]
         },
@@ -1143,18 +1143,18 @@
             "workflow_outputs": [
                 {
                     "label": null,
-                    "output_name": "barcodes_10x",
-                    "uuid": "0aa20333-02a4-48a8-9a77-6eee3f5d54d6"
+                    "output_name": "matrix_10x",
+                    "uuid": "2d9f37cf-3af9-449d-9e94-ad8832224a9d"
                 },
                 {
                     "label": null,
                     "output_name": "genes_10x",
-                    "uuid": "15adff5b-5d48-40dd-bda7-37183eca46bd"
+                    "uuid": "1a61c0a7-9f9f-4903-8c09-367806868112"
                 },
                 {
                     "label": null,
-                    "output_name": "matrix_10x",
-                    "uuid": "8a328c9a-eef6-417b-b421-cef3b3469069"
+                    "output_name": "barcodes_10x",
+                    "uuid": "209b2aa3-159e-40d9-bc7e-53830904c0d0"
                 }
             ]
         },
@@ -1222,12 +1222,7 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Scanpy ScaleData",
-                    "name": "input_obj_file"
-                }
-            ],
+            "inputs": [],
             "label": null,
             "name": "Scanpy ScaleData",
             "outputs": [
@@ -1259,7 +1254,7 @@
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"RuntimeValue\"}, \"output_format\": \"anndata_h5ad\", \"save_layer\": \"\", \"save_raw\": \"false\", \"scale_max\": null, \"zero_center\": \"true\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_state": "{\"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"save_layer\": \"\", \"save_raw\": \"false\", \"scale_max\": null, \"zero_center\": \"true\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "02f9a5e4-2b8e-43c9-9c9a-5ef557ab77ee",
@@ -1496,7 +1491,7 @@
                 {
                     "label": null,
                     "output_name": "output_embed",
-                    "uuid": "d9a090aa-70d2-4cb8-ae6a-8b561fbc61e4"
+                    "uuid": "b0cd12a2-eb3b-46b2-868e-1f2685a842a9"
                 }
             ]
         },
@@ -1727,7 +1722,7 @@
                 {
                     "label": null,
                     "output_name": "output_embed",
-                    "uuid": "4470fe0a-6528-4303-a6af-5c42f95774fa"
+                    "uuid": "a749fcdf-31b1-471d-981d-73bbcbc78a01"
                 }
             ]
         },
@@ -1847,7 +1842,7 @@
                 {
                     "label": null,
                     "output_name": "output_txt",
-                    "uuid": "ce5fb4d9-560d-4b22-b8b7-1788d68663ac"
+                    "uuid": "2af501fb-ebae-4ac0-b5fb-1f3b2c0c0ce3"
                 }
             ]
         },
@@ -2053,7 +2048,7 @@
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"add_cell_metadata\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"true\", \"__current_case__\": 0, \"xlayers\": [{\"__index__\": 0, \"x_source\": {\"__class__\": \"ConnectedValue\"}, \"dest\": \"log_normalised_unscaled\"}]}, \"field_unique\": null, \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"split_on_obs\": {\"default\": \"false\", \"__current_case__\": 1}, \"swap_layer_to_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_state": "{\"add_cell_metadata\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"true\", \"__current_case__\": 0, \"xlayers\": [{\"__index__\": 0, \"x_source\": {\"__class__\": \"ConnectedValue\"}, \"dest\": \"log_normalised_unscaled\"}]}, \"field_unique\": \"\", \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"split_on_obs\": {\"default\": \"false\", \"__current_case__\": 1}, \"swap_layer_to_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "d58ef447-0dd7-4dd0-bc1f-aa85a663215e",
@@ -2233,7 +2228,7 @@
                 {
                     "label": null,
                     "output_name": "output_tsv",
-                    "uuid": "05693b54-db0d-4216-a479-ed058ff8d021"
+                    "uuid": "bfba8baf-39fb-4a6c-bab1-1566a5cb4e71"
                 }
             ]
         },
@@ -2383,7 +2378,7 @@
             "post_job_actions": {
                 "RenameDatasetActionoutput_h5ad": {
                     "action_arguments": {
-                        "newname": "project.h5ad"
+                        "newname": "final_project.h5ad"
                     },
                     "action_type": "RenameDatasetAction",
                     "output_name": "output_h5ad"
@@ -2404,12 +2399,12 @@
                 {
                     "label": null,
                     "output_name": "output_h5ad",
-                    "uuid": "9f779c9b-8c14-4703-95f8-39456d5c9a5d"
+                    "uuid": "a9838d28-e7a4-432d-b8d5-30a34b5a51e6"
                 }
             ]
         }
     },
     "tags": [],
-    "uuid": "c8543b79-ea47-4642-8599-ce97ab622cd0",
-    "version": 3
+    "uuid": "4f5d0ffa-608b-4618-bc0b-40dacff3bbfc",
+    "version": 11
 }
