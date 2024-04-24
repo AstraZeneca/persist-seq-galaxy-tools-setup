@@ -1151,6 +1151,7 @@ tools:
   - 72a7d8593afc
   - 80d97bdbfc7b
   - a74497e18277
+  - b1bc3cb14097
   tool_panel_section_id: hca_sc_scmap_tools
 - name: scmap_index_cell
   owner: ebi-gxa
@@ -1162,6 +1163,7 @@ tools:
   - 5593b0744de9
   - 640982866dfe
   - 7c3f9606ed0a
+  - d9f79a39b39d
   - db43f55890d9
   - dd0b44bd359a
   - dd2a84734b87
@@ -1171,6 +1173,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 1949832b448c
+  - 314f21a351ea
   - 38c6a98c7c60
   - 4696224064ff
   - 4ff68faee6e1
@@ -1200,6 +1203,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 037b0e7a7606
+  - 0a1dabbae5fa
   - 1989bd869cff
   - 2a320bb37bf0
   - 40e10f3a1844
@@ -1217,6 +1221,7 @@ tools:
   - 72a7d8593afc
   - 80d97bdbfc7b
   - a74497e18277
+  - b1bc3cb14097
   tool_panel_section_id: hca_sc_scmap_tools
 - name: scmap_select_features
   owner: ebi-gxa
@@ -1225,6 +1230,7 @@ tools:
   - 3e22b96ba4fb
   - 5972aea41e0e
   - 75ed6252dec5
+  - 91f29745bda6
   - 953c7ff4069e
   - d0d9c3dfd609
   - d85fba139f9a
@@ -1239,6 +1245,7 @@ tools:
   - 3370352d1f85
   - 39370cc49ae7
   - 5f95950c3959
+  - 601a933714f1
   - 656c588b718c
   - fb0626ff412b
   tool_panel_section_id: hca_sc_scmap_tools
