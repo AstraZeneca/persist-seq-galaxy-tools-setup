@@ -1,6 +1,6 @@
 {
     "a_galaxy_workflow": "true",
-    "annotation": "",
+    "annotation": "Persist-Seq v0.3.6, Scanpy 1.9.3 (cell cycle)",
     "creator": [
         {
             "class": "Person",
@@ -14,7 +14,7 @@
         }
     ],
     "format-version": "0.1",
-    "name": "Persist-Seq v0.3.5, Scanpy 1.8.1 (cell cycle)",
+    "name": "Persist-Seq v0.3.6",
     "steps": {
         "0": {
             "annotation": "",
@@ -33,7 +33,7 @@
             "outputs": [],
             "position": {
                 "left": 3.90625,
-                "top": 79.796875
+                "top": 79.828125
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": null}",
@@ -59,7 +59,7 @@
             "outputs": [],
             "position": {
                 "left": 3.90625,
-                "top": 183.78125
+                "top": 183.8125
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": null}",
@@ -84,8 +84,8 @@
             "name": "Input dataset",
             "outputs": [],
             "position": {
-                "left": 6.9375,
-                "top": 307.796875
+                "left": 6.953125,
+                "top": 307.828125
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": \"\"}",
@@ -111,7 +111,7 @@
             "outputs": [],
             "position": {
                 "left": 3.90625,
-                "top": 414.8125
+                "top": 414.859375
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": null}",
@@ -136,8 +136,8 @@
             "name": "Input dataset",
             "outputs": [],
             "position": {
-                "left": 0.0,
-                "top": 504.46875
+                "left": 0,
+                "top": 504.546875
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": \"\"}",
@@ -162,21 +162,15 @@
             "name": "Input parameter",
             "outputs": [],
             "position": {
-                "left": 269.21875,
-                "top": 505.484375
+                "left": 269.28125,
+                "top": 505.53125
             },
             "tool_id": null,
             "tool_state": "{\"default\": \"Sample.ID\", \"parameter_type\": \"text\", \"optional\": true}",
             "tool_version": null,
             "type": "parameter_input",
             "uuid": "9c49124a-563a-4460-8788-adda2ae28504",
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "output",
-                    "uuid": "70c437d9-befd-47af-8c32-1a137dcc24ae"
-                }
-            ]
+            "workflow_outputs": []
         },
         "6": {
             "annotation": "",
@@ -194,21 +188,15 @@
             "name": "Input parameter",
             "outputs": [],
             "position": {
-                "left": 273.203125,
-                "top": 639.796875
+                "left": 273.234375,
+                "top": 639.875
             },
             "tool_id": null,
             "tool_state": "{\"parameter_type\": \"text\", \"optional\": true}",
             "tool_version": null,
             "type": "parameter_input",
             "uuid": "c1eb2b3f-8ab6-485d-a471-0f0f2262b34d",
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "output",
-                    "uuid": "886c9304-651e-4529-9af8-f4a2c2ed5998"
-                }
-            ]
+            "workflow_outputs": []
         },
         "7": {
             "annotation": "",
@@ -226,21 +214,15 @@
             "name": "Input parameter",
             "outputs": [],
             "position": {
-                "left": 277.0,
-                "top": 753.375
+                "left": 277.09375,
+                "top": 753.4375
             },
             "tool_id": null,
             "tool_state": "{\"suggestions\": [\"ribo\", \"ribosomal\"], \"parameter_type\": \"text\", \"optional\": false}",
             "tool_version": null,
             "type": "parameter_input",
             "uuid": "be6b604d-74ec-497e-bd7c-bf8c2aae595e",
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "output",
-                    "uuid": "be727438-3133-458d-ae97-9b77639484dd"
-                }
-            ]
+            "workflow_outputs": []
         },
         "8": {
             "annotation": "",
@@ -258,21 +240,15 @@
             "name": "Input parameter",
             "outputs": [],
             "position": {
-                "left": 281.0,
-                "top": 868.3125
+                "left": 281.046875,
+                "top": 868.359375
             },
             "tool_id": null,
             "tool_state": "{\"default\": \"No\", \"restrictions\": [\"True\", \"No\"], \"parameter_type\": \"text\", \"optional\": true}",
             "tool_version": null,
             "type": "parameter_input",
             "uuid": "9456f530-b2cb-4289-84cc-de011f42d7b2",
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "output",
-                    "uuid": "145921fd-ef37-4755-b11f-4f448cf0e5be"
-                }
-            ]
+            "workflow_outputs": []
         },
         "9": {
             "annotation": "",
@@ -290,21 +266,15 @@
             "name": "Input dataset",
             "outputs": [],
             "position": {
-                "left": 1612.296875,
-                "top": 173.53125
+                "left": 1612.359375,
+                "top": 173.609375
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": \"\"}",
             "tool_version": null,
             "type": "data_input",
             "uuid": "ac43d0e7-9513-4c5d-ad00-59c98c456118",
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "output",
-                    "uuid": "4dc8cbf0-3ef6-4ca7-929d-f61a0d2396f9"
-                }
-            ]
+            "workflow_outputs": []
         },
         "10": {
             "annotation": "",
@@ -322,21 +292,15 @@
             "name": "Input dataset",
             "outputs": [],
             "position": {
-                "left": 1630.296875,
-                "top": 61.53125
+                "left": 1630.359375,
+                "top": 61.609375
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": \"\"}",
             "tool_version": null,
             "type": "data_input",
             "uuid": "f28f9b7b-1905-4e20-90d5-b7453ce82a5d",
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "output",
-                    "uuid": "10b0f4c7-441a-46a8-9f7e-65dcb69b7962"
-                }
-            ]
+            "workflow_outputs": []
         },
         "11": {
             "annotation": "",
@@ -354,8 +318,8 @@
                 }
             ],
             "position": {
-                "left": 2546.328125,
-                "top": 289.8125
+                "left": 2546.421875,
+                "top": 289.859375
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionparameter_iteration": {
@@ -398,21 +362,15 @@
             "name": "Input parameter",
             "outputs": [],
             "position": {
-                "left": 2546.328125,
-                "top": 795.796875
+                "left": 2546.421875,
+                "top": 795.859375
             },
             "tool_id": null,
             "tool_state": "{\"default\": \"X_pca\", \"parameter_type\": \"text\", \"optional\": true}",
             "tool_version": null,
             "type": "parameter_input",
             "uuid": "be665789-79da-42a4-8446-c627c365b35c",
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "output",
-                    "uuid": "b9c6cd8e-3e6b-4151-92c5-6e1300ceff3e"
-                }
-            ]
+            "workflow_outputs": []
         },
         "13": {
             "annotation": "",
@@ -430,8 +388,8 @@
                 }
             ],
             "position": {
-                "left": 2546.328125,
-                "top": 895.828125
+                "left": 2546.421875,
+                "top": 895.90625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionparameter_iteration": {
@@ -474,8 +432,8 @@
                 }
             ],
             "position": {
-                "left": 2844.3125,
-                "top": 1341.8125
+                "left": 2844.40625,
+                "top": 1341.875
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionparameter_iteration": {
@@ -518,25 +476,19 @@
             "name": "Input parameter",
             "outputs": [],
             "position": {
-                "left": 2844.3125,
-                "top": 1650.796875
+                "left": 2844.40625,
+                "top": 1650.859375
             },
             "tool_id": null,
             "tool_state": "{\"default\": \"NO_CELLTYPE_FIELD\", \"parameter_type\": \"text\", \"optional\": true}",
             "tool_version": null,
             "type": "parameter_input",
             "uuid": "e301b157-d891-4972-a069-912bc203628d",
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "output",
-                    "uuid": "8ab50eaf-4b9b-4e50-8d12-f6c5be0a20ce"
-                }
-            ]
+            "workflow_outputs": []
         },
         "16": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.9.3+galaxy0",
             "errors": null,
             "id": 16,
             "input_connections": {
@@ -571,8 +523,8 @@
                 }
             ],
             "position": {
-                "left": 290.15625,
-                "top": 45.8125
+                "left": 290.171875,
+                "top": 45.859375
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -586,15 +538,15 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "c2fe8568f35f",
+                "changeset_revision": "078aa23c9374",
                 "name": "scanpy_read_10x",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"barcodes\": {\"__class__\": \"ConnectedValue\"}, \"cell_meta\": {\"__class__\": \"ConnectedValue\"}, \"gene_meta\": {\"__class__\": \"ConnectedValue\"}, \"genes\": {\"__class__\": \"ConnectedValue\"}, \"matrix\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"var_names\": \"gene_ids\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "feda163d-4ca3-4018-91f2-049f6edeb862",
             "workflow_outputs": []
@@ -620,8 +572,8 @@
                 }
             ],
             "position": {
-                "left": 3122.3125,
-                "top": 1462.828125
+                "left": 3122.40625,
+                "top": 1462.890625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutfile": {
@@ -683,8 +635,8 @@
                 }
             ],
             "position": {
-                "left": 3122.3125,
-                "top": 1634.8125
+                "left": 3122.40625,
+                "top": 1634.84375
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionparameter_iteration": {
@@ -720,7 +672,7 @@
         },
         "19": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_multiplet_scrublet/scanpy_multiplet_scrublet/1.8.1+3+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_multiplet_scrublet/scanpy_multiplet_scrublet/1.9.3+galaxy0",
             "errors": null,
             "id": 19,
             "input_connections": {
@@ -743,8 +695,8 @@
                 }
             ],
             "position": {
-                "left": 570.25,
-                "top": 122.765625
+                "left": 570.328125,
+                "top": 122.828125
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -758,15 +710,15 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_multiplet_scrublet/scanpy_multiplet_scrublet/1.8.1+3+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_multiplet_scrublet/scanpy_multiplet_scrublet/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "8ca3ab8300ce",
+                "changeset_revision": "2f9517a24c73",
                 "name": "scanpy_multiplet_scrublet",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"batch_key\": {\"__class__\": \"ConnectedValue\"}, \"filter\": \"false\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"settings\": {\"default\": \"true\", \"__current_case__\": 0}, \"threshold\": null, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+3+galaxy0",
+            "tool_state": "{\"batch_key\": {\"__class__\": \"ConnectedValue\"}, \"filter\": \"false\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"sample_key\": null, \"settings\": {\"default\": \"true\", \"__current_case__\": 0}, \"threshold\": null, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "f909f6a9-bfba-4078-b1bf-5d14485477a0",
             "workflow_outputs": []
@@ -796,8 +748,8 @@
                 }
             ],
             "position": {
-                "left": 3400.328125,
-                "top": 1464.828125
+                "left": 3400.375,
+                "top": 1464.875
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput": {
@@ -827,7 +779,7 @@
         },
         "21": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_scrublet/scanpy_plot_scrublet/1.8.1+3+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_scrublet/scanpy_plot_scrublet/1.9.3+galaxy0",
             "errors": null,
             "id": 21,
             "input_connections": {
@@ -846,8 +798,8 @@
                 }
             ],
             "position": {
-                "left": 848.265625,
-                "top": 255.8125
+                "left": 848.3125,
+                "top": 255.875
             },
             "post_job_actions": {
                 "RenameDatasetActionoutput_png": {
@@ -858,28 +810,28 @@
                     "output_name": "output_png"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_scrublet/scanpy_plot_scrublet/1.8.1+3+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_plot_scrublet/scanpy_plot_scrublet/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "021a6e341dcf",
+                "changeset_revision": "6f5509cf3176",
                 "name": "scanpy_plot_scrublet",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"scale_hist_obs\": \"linear\", \"scale_hist_sim\": \"linear\", \"settings\": {\"default\": \"true\", \"__current_case__\": 0}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+3+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "76e20b80-e09a-4962-bc3d-df8d84f05ff7",
             "workflow_outputs": [
                 {
                     "label": "Scanpy Plot Scrublet on input dataset(s): Scrublet plot",
                     "output_name": "output_png",
-                    "uuid": "ccccb315-4fdf-4305-b838-91e136249911"
+                    "uuid": "708058b4-2818-49fb-8167-0f8ac314b112"
                 }
             ]
         },
         "22": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_cells/scanpy_filter_cells/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_cells/scanpy_filter_cells/1.9.3+galaxy0",
             "errors": null,
             "id": 22,
             "input_connections": {
@@ -910,8 +862,8 @@
                 }
             ],
             "position": {
-                "left": 849.296875,
-                "top": 427.8125
+                "left": 849.359375,
+                "top": 427.875
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -940,22 +892,22 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_cells/scanpy_filter_cells/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_cells/scanpy_filter_cells/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "b28ba58033ea",
+                "changeset_revision": "bf1e0bdec1db",
                 "name": "scanpy_filter_cells",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"categories\": [{\"__index__\": 0, \"name\": \"predicted_doublet\", \"values\": \"False\", \"negate\": \"false\"}], \"export_mtx\": \"true\", \"force_recalc\": \"false\", \"gene_name\": \"gene_symbols\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"parameters\": [{\"__index__\": 0, \"name\": \"n_counts\", \"min\": \"750.0\", \"max\": \"1000000000.0\"}, {\"__index__\": 1, \"name\": \"pct_counts_mito\", \"min\": \"0.0\", \"max\": \"35.0\"}], \"save_layer\": \"\", \"save_raw\": \"false\", \"subsets\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "072d28f5-3d9f-4705-81bf-e9a70d123edc",
             "workflow_outputs": []
         },
         "23": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_genes/scanpy_filter_genes/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_genes/scanpy_filter_genes/1.9.3+galaxy0",
             "errors": null,
             "id": 23,
             "input_connections": {
@@ -994,8 +946,8 @@
                 }
             ],
             "position": {
-                "left": 1118.328125,
-                "top": 706.796875
+                "left": 1118.421875,
+                "top": 706.875
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1030,38 +982,38 @@
                     "output_name": "matrix_10x"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_genes/scanpy_filter_genes/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_genes/scanpy_filter_genes/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "082832adea96",
+                "changeset_revision": "cc64914b0cf4",
                 "name": "scanpy_filter_genes",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"categories\": [{\"__index__\": 0, \"name\": {\"__class__\": \"ConnectedValue\"}, \"values\": {\"__class__\": \"ConnectedValue\"}, \"negate\": \"true\"}], \"export_mtx\": \"true\", \"force_recalc\": \"false\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"parameters\": [{\"__index__\": 0, \"name\": \"n_cells\", \"min\": \"3.0\", \"max\": \"1000000000.0\"}], \"save_layer\": \"\", \"save_raw\": \"false\", \"subsets\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "fec112ed-9908-43a5-b542-203d6a3809d5",
             "workflow_outputs": [
                 {
                     "label": null,
+                    "output_name": "genes_10x",
+                    "uuid": "6907113c-a2e5-4b7b-812e-783ed54a6157"
+                },
+                {
+                    "label": null,
                     "output_name": "barcodes_10x",
-                    "uuid": "bd561db7-4ba3-446e-8a2b-dccf2d1b60d8"
+                    "uuid": "785437a6-7007-4593-8a96-c12eb6fc34d7"
                 },
                 {
                     "label": null,
                     "output_name": "matrix_10x",
-                    "uuid": "8bb44da3-ee58-417a-8a94-d81a6890fcf0"
-                },
-                {
-                    "label": null,
-                    "output_name": "genes_10x",
-                    "uuid": "991fbc06-f3da-461a-bb71-2fd2b8036172"
+                    "uuid": "a708ac0c-fead-4edc-be50-86f28a0a2622"
                 }
             ]
         },
         "24": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data/1.9.3+galaxy0",
             "errors": null,
             "id": 24,
             "input_connections": {
@@ -1070,12 +1022,7 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Scanpy NormaliseData",
-                    "name": "input_obj_file"
-                }
-            ],
+            "inputs": [],
             "label": "normalise_data_internal",
             "name": "Scanpy NormaliseData",
             "outputs": [
@@ -1085,8 +1032,8 @@
                 }
             ],
             "position": {
-                "left": 1414.328125,
-                "top": 692.8125
+                "left": 1414.375,
+                "top": 692.890625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1100,22 +1047,22 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "f6a781314ca8",
+                "changeset_revision": "3027cb62adbd",
                 "name": "scanpy_normalise_data",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"export_mtx\": \"false\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"RuntimeValue\"}, \"output_format\": \"anndata_h5ad\", \"save_layer\": \"\", \"save_raw\": \"false\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"scale_factor\": \"1000000.0\", \"log_transform\": \"true\", \"exclude\": {\"exclude_highly_expressed\": \"false\", \"__current_case__\": 1}, \"layers\": \"\", \"layer_norm\": \"\", \"key_added\": \"\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_state": "{\"export_mtx\": \"false\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"save_layer\": \"\", \"save_raw\": \"false\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"scale_factor\": \"1000000.0\", \"log_transform\": \"true\", \"exclude\": {\"exclude_highly_expressed\": \"false\", \"__current_case__\": 1}, \"layers\": \"\", \"layer_norm\": \"\", \"key_added\": \"\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "2b50a8b8-c1e8-40f7-819f-b1b41da76766",
             "workflow_outputs": []
         },
         "25": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data/1.9.3+galaxy0",
             "errors": null,
             "id": 25,
             "input_connections": {
@@ -1124,12 +1071,7 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Scanpy NormaliseData",
-                    "name": "input_obj_file"
-                }
-            ],
+            "inputs": [],
             "label": "normalise_data",
             "name": "Scanpy NormaliseData",
             "outputs": [
@@ -1151,8 +1093,8 @@
                 }
             ],
             "position": {
-                "left": 1472.3125,
-                "top": 1103.828125
+                "left": 1472.390625,
+                "top": 1103.875
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1187,38 +1129,38 @@
                     "output_name": "matrix_10x"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_normalise_data/scanpy_normalise_data/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "f6a781314ca8",
+                "changeset_revision": "3027cb62adbd",
                 "name": "scanpy_normalise_data",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"export_mtx\": \"true\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"RuntimeValue\"}, \"output_format\": \"anndata_h5ad\", \"save_layer\": \"\", \"save_raw\": \"false\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"scale_factor\": \"1000000.0\", \"log_transform\": \"false\", \"exclude\": {\"exclude_highly_expressed\": \"false\", \"__current_case__\": 1}, \"layers\": \"\", \"layer_norm\": \"\", \"key_added\": \"\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_state": "{\"export_mtx\": \"true\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"save_layer\": \"\", \"save_raw\": \"false\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"scale_factor\": \"1000000.0\", \"log_transform\": \"false\", \"exclude\": {\"exclude_highly_expressed\": \"false\", \"__current_case__\": 1}, \"layers\": \"\", \"layer_norm\": \"\", \"key_added\": \"\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "72ead95f-b5df-46a7-af5a-58bdd13927ec",
             "workflow_outputs": [
                 {
                     "label": null,
+                    "output_name": "matrix_10x",
+                    "uuid": "2d9f37cf-3af9-449d-9e94-ad8832224a9d"
+                },
+                {
+                    "label": null,
                     "output_name": "genes_10x",
-                    "uuid": "8b03d0ed-4e83-48d2-a2cd-ee003d4cd99c"
+                    "uuid": "1a61c0a7-9f9f-4903-8c09-367806868112"
                 },
                 {
                     "label": null,
                     "output_name": "barcodes_10x",
-                    "uuid": "fa7db6bd-2932-4c8b-952d-7f9287f1b588"
-                },
-                {
-                    "label": null,
-                    "output_name": "matrix_10x",
-                    "uuid": "6987933c-0306-44b8-82b4-539d8f75838c"
+                    "uuid": "209b2aa3-159e-40d9-bc7e-53830904c0d0"
                 }
             ]
         },
         "26": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_variable_genes/scanpy_find_variable_genes/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_variable_genes/scanpy_find_variable_genes/1.9.3+galaxy0",
             "errors": null,
             "id": 26,
             "input_connections": {
@@ -1241,8 +1183,8 @@
                 }
             ],
             "position": {
-                "left": 1712.3125,
-                "top": 531.8125
+                "left": 1712.375,
+                "top": 531.890625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1256,22 +1198,22 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_variable_genes/scanpy_find_variable_genes/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_variable_genes/scanpy_find_variable_genes/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "438a09194001",
+                "changeset_revision": "2bc42a6f092b",
                 "name": "scanpy_find_variable_genes",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"batch_key\": {\"__class__\": \"ConnectedValue\"}, \"filter\": \"false\", \"flavor\": \"seurat\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"max_disp\": \"50.0\", \"max_mean\": \"1000000000.0\", \"min_disp\": \"0.5\", \"min_mean\": \"0.0125\", \"n_bin\": \"20\", \"n_top_gene\": null, \"output_format\": \"anndata_h5ad\", \"span\": \"0.3\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "94890259-1a26-4a62-8db3-51fc1edd8465",
             "workflow_outputs": []
         },
         "27": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_scale_data/scanpy_scale_data/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_scale_data/scanpy_scale_data/1.9.3+galaxy0",
             "errors": null,
             "id": 27,
             "input_connections": {
@@ -1280,12 +1222,7 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Scanpy ScaleData",
-                    "name": "input_obj_file"
-                }
-            ],
+            "inputs": [],
             "label": null,
             "name": "Scanpy ScaleData",
             "outputs": [
@@ -1295,8 +1232,8 @@
                 }
             ],
             "position": {
-                "left": 1990.3125,
-                "top": 556.828125
+                "left": 1990.40625,
+                "top": 556.875
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1310,22 +1247,22 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_scale_data/scanpy_scale_data/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_scale_data/scanpy_scale_data/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "4f04a735b26d",
+                "changeset_revision": "4cc9362782b4",
                 "name": "scanpy_scale_data",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"RuntimeValue\"}, \"output_format\": \"anndata_h5ad\", \"save_layer\": \"\", \"save_raw\": \"false\", \"scale_max\": null, \"zero_center\": \"true\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_state": "{\"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"save_layer\": \"\", \"save_raw\": \"false\", \"scale_max\": null, \"zero_center\": \"true\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "02f9a5e4-2b8e-43c9-9c9a-5ef557ab77ee",
             "workflow_outputs": []
         },
         "28": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.7.1+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.9.6+galaxy2",
             "errors": null,
             "id": 28,
             "input_connections": {
@@ -1342,12 +1279,7 @@
                     "output_name": "output"
                 }
             },
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Inspect and manipulate",
-                    "name": "adata"
-                }
-            ],
+            "inputs": [],
             "label": "Score cell cycle",
             "name": "Inspect and manipulate",
             "outputs": [
@@ -1357,8 +1289,8 @@
                 }
             ],
             "position": {
-                "left": 2184.0,
-                "top": 156.0
+                "left": 2184.09375,
+                "top": 156.0625
             },
             "post_job_actions": {
                 "HideDatasetActionanndata_out": {
@@ -1367,22 +1299,22 @@
                     "output_name": "anndata_out"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.7.1+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.9.6+galaxy2",
             "tool_shed_repository": {
-                "changeset_revision": "c5d3684f7c4c",
+                "changeset_revision": "5c3ebe2adc77",
                 "name": "scanpy_inspect",
                 "owner": "iuc",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"adata\": {\"__class__\": \"RuntimeValue\"}, \"advanced_common\": {\"show_log\": \"false\"}, \"method\": {\"method\": \"tl.score_genes_cell_cycle\", \"__current_case__\": 3, \"s_genes\": {\"format\": \"file\", \"__current_case__\": 1, \"file\": {\"__class__\": \"RuntimeValue\"}}, \"g2m_genes\": {\"format\": \"file\", \"__current_case__\": 1, \"file\": {\"__class__\": \"RuntimeValue\"}}, \"n_bins\": \"25\", \"random_state\": \"0\", \"use_raw\": \"false\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.7.1+galaxy0",
+            "tool_state": "{\"adata\": {\"__class__\": \"ConnectedValue\"}, \"advanced_common\": {\"show_log\": \"false\"}, \"method\": {\"method\": \"tl.score_genes_cell_cycle\", \"__current_case__\": 3, \"s_genes\": {\"format\": \"file\", \"__current_case__\": 1, \"file\": {\"__class__\": \"ConnectedValue\"}}, \"g2m_genes\": {\"format\": \"file\", \"__current_case__\": 1, \"file\": {\"__class__\": \"ConnectedValue\"}}, \"n_bins\": \"25\", \"random_state\": \"0\", \"use_raw\": \"false\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.6+galaxy2",
             "type": "tool",
             "uuid": "282cb0de-db26-4cf5-bc0e-ce076e9adcb2",
             "workflow_outputs": []
         },
         "29": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_pca/scanpy_run_pca/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_pca/scanpy_run_pca/1.9.3+galaxy0",
             "errors": null,
             "id": 29,
             "input_connections": {
@@ -1391,12 +1323,7 @@
                     "output_name": "anndata_out"
                 }
             },
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Scanpy RunPCA",
-                    "name": "input_obj_file"
-                }
-            ],
+            "inputs": [],
             "label": "run_pca",
             "name": "Scanpy RunPCA",
             "outputs": [
@@ -1406,8 +1333,8 @@
                 }
             ],
             "position": {
-                "left": 2268.328125,
-                "top": 567.8125
+                "left": 2268.421875,
+                "top": 567.890625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1421,22 +1348,22 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_pca/scanpy_run_pca/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_pca/scanpy_run_pca/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "4fbc4b97090f",
+                "changeset_revision": "4428dba93375",
                 "name": "scanpy_run_pca",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"extra_outputs\": null, \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"RuntimeValue\"}, \"n_pcs\": null, \"output_format\": \"anndata_h5ad\", \"run_mode\": {\"chunked\": \"false\", \"__current_case__\": 1, \"zero_center\": \"false\", \"svd_solver\": \"arpack\", \"random_seed\": \"1234\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_state": "{\"extra_outputs\": null, \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"n_pcs\": null, \"output_format\": \"anndata_h5ad\", \"run_mode\": {\"chunked\": \"false\", \"__current_case__\": 1, \"zero_center\": \"false\", \"svd_solver\": \"arpack\", \"random_seed\": \"1234\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "08f59492-1e2f-40ee-9d81-6d25fe3e60b7",
             "workflow_outputs": []
         },
         "30": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_integrate_harmony/scanpy_integrate_harmony/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_integrate_harmony/scanpy_integrate_harmony/1.9.3+galaxy0",
             "errors": null,
             "id": 30,
             "input_connections": {
@@ -1459,8 +1386,8 @@
                 }
             ],
             "position": {
-                "left": 2546.328125,
-                "top": 409.8125
+                "left": 2546.421875,
+                "top": 409.859375
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1474,22 +1401,22 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_integrate_harmony/scanpy_integrate_harmony/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_integrate_harmony/scanpy_integrate_harmony/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "c8eb5547846b",
+                "changeset_revision": "c354af93f567",
                 "name": "scanpy_integrate_harmony",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"adjusted_basis\": \"X_pca_harmony\", \"basis\": \"X_pca\", \"batch_key\": {\"__class__\": \"ConnectedValue\"}, \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"settings\": {\"default\": \"true\", \"__current_case__\": 0}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "27d53ce8-7eb3-47dc-957b-4988fa186fab",
             "workflow_outputs": []
         },
         "31": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne/1.9.3+galaxy0",
             "errors": null,
             "id": 31,
             "input_connections": {
@@ -1520,8 +1447,8 @@
                 }
             ],
             "position": {
-                "left": 2844.3125,
-                "top": 266.8125
+                "left": 2844.40625,
+                "top": 266.890625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1549,28 +1476,28 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_tsne/scanpy_run_tsne/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "753bf41cc2e3",
+                "changeset_revision": "abdb61e4afa3",
                 "name": "scanpy_run_tsne",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"embeddings\": \"true\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"key_added\": \"perplexity_PERPLEXITY\", \"perplexity\": \"30.0\", \"perplexity_file\": {\"__class__\": \"ConnectedValue\"}, \"early_exaggeration\": \"12.0\", \"learning_rate\": \"400.0\", \"fast_tsne\": \"false\", \"n_job\": null, \"n_pc\": null, \"random_seed\": \"1234\"}, \"use_rep\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "847e03b2-adb2-4545-bcb4-49dabdfb4f3a",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "output_embed",
-                    "uuid": "d49cacec-4bff-4c07-a31e-557a763de22b"
+                    "uuid": "b0cd12a2-eb3b-46b2-868e-1f2685a842a9"
                 }
             ]
         },
         "32": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0",
             "errors": null,
             "id": 32,
             "input_connections": {
@@ -1597,8 +1524,8 @@
                 }
             ],
             "position": {
-                "left": 2844.3125,
-                "top": 651.8125
+                "left": 2844.40625,
+                "top": 651.875
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1619,22 +1546,22 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "0fe56ddbab0d",
+                "changeset_revision": "22bd5861706d",
                 "name": "scanpy_compute_graph",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"key_added\": \"neighbors_n_neighbors_N_NEIGHBORS\", \"n_neighbors\": \"15\", \"n_neighbors_file\": {\"__class__\": \"ConnectedValue\"}, \"use_rep\": {\"__class__\": \"ConnectedValue\"}, \"n_pcs\": \"50\", \"knn\": \"true\", \"method\": \"umap\", \"metric\": \"euclidean\", \"random_seed\": \"0\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "4782e443-358b-47eb-984c-32877399da12",
             "workflow_outputs": []
         },
         "33": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0",
             "errors": null,
             "id": 33,
             "input_connections": {
@@ -1662,8 +1589,8 @@
                 }
             ],
             "position": {
-                "left": 2848.0625,
-                "top": 1004.328125
+                "left": 2848.15625,
+                "top": 1004.40625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1677,15 +1604,15 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "0fe56ddbab0d",
+                "changeset_revision": "22bd5861706d",
                 "name": "scanpy_compute_graph",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"key_added\": \"\", \"n_neighbors\": \"15\", \"n_neighbors_file\": {\"__class__\": \"RuntimeValue\"}, \"use_rep\": {\"__class__\": \"ConnectedValue\"}, \"n_pcs\": \"50\", \"knn\": \"true\", \"method\": \"umap\", \"metric\": \"euclidean\", \"random_seed\": \"0\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "228dc97a-c79e-458c-adee-94e7dd56e2bb",
             "workflow_outputs": []
@@ -1711,8 +1638,8 @@
                 }
             ],
             "position": {
-                "left": 3650.828125,
-                "top": 626.578125
+                "left": 3650.90625,
+                "top": 626.640625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput": {
@@ -1735,7 +1662,7 @@
         },
         "35": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap/1.9.3+galaxy0",
             "errors": null,
             "id": 35,
             "input_connections": {
@@ -1758,8 +1685,8 @@
                 }
             ],
             "position": {
-                "left": 3126.3125,
-                "top": 682.8125
+                "left": 3126.40625,
+                "top": 682.890625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5": {
@@ -1780,22 +1707,22 @@
                     "output_name": "output_embed"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_run_umap/scanpy_run_umap/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "0da35cd42e7c",
+                "changeset_revision": "ea91cfd0444e",
                 "name": "scanpy_run_umap",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"embeddings\": \"true\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"key_added\": \"NEIGHBORS_KEY\", \"output_format\": \"anndata\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"n_components\": \"2\", \"min_dist\": \"0.5\", \"spread\": \"1.0\", \"alpha\": \"1.0\", \"gamma\": \"1.0\", \"negative_sample_rate\": \"5\", \"init_pos\": \"spectral\", \"maxiter\": null, \"random_seed\": \"0\"}, \"use_graph\": \"neighbors_INPUT_OBJ\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "899c087a-8625-4d20-b0c5-c2eb5560c652",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "output_embed",
-                    "uuid": "094fca55-4eaa-44c4-92be-67dadaa26930"
+                    "uuid": "a749fcdf-31b1-471d-981d-73bbcbc78a01"
                 }
             ]
         },
@@ -1820,8 +1747,8 @@
                 }
             ],
             "position": {
-                "left": 3122.3125,
-                "top": 954.828125
+                "left": 3122.40625,
+                "top": 954.890625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput": {
@@ -1844,7 +1771,7 @@
         },
         "37": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster/1.9.3+galaxy0",
             "errors": null,
             "id": 37,
             "input_connections": {
@@ -1871,8 +1798,8 @@
                 }
             ],
             "position": {
-                "left": 3122.3125,
-                "top": 1106.828125
+                "left": 3122.40625,
+                "top": 1106.875
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -1900,28 +1827,28 @@
                     "output_name": "output_txt"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_cluster/scanpy_find_cluster/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "002f73dae0a7",
+                "changeset_revision": "36735850e461",
                 "name": "scanpy_find_cluster",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"method\": \"louvain\", \"output_cluster\": \"true\", \"output_format\": \"anndata_h5ad\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"neighbors_key\": \"neighbors\", \"layer\": \"\", \"key_added\": \"METHOD_resolution_RESOLUTION\", \"resolution\": \"1.0\", \"resolution_file\": {\"__class__\": \"ConnectedValue\"}, \"restrict_to\": \"\", \"use_weights\": \"false\", \"random_seed\": \"1234\", \"directed\": \"true\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "472a0c0a-8186-4b07-80de-a2fcc407f4ef",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "output_txt",
-                    "uuid": "f49cadc8-93f6-4b78-a552-c23101f2c8e3"
+                    "uuid": "2af501fb-ebae-4ac0-b5fb-1f3b2c0c0ce3"
                 }
             ]
         },
         "38": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "errors": null,
             "id": 38,
             "input_connections": {
@@ -1952,8 +1879,8 @@
                 }
             ],
             "position": {
-                "left": 3470.828125,
-                "top": 0.0
+                "left": 3470.90625,
+                "top": 0
             },
             "post_job_actions": {
                 "HideDatasetActionoutput_h5ad": {
@@ -1969,15 +1896,15 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "52ee45fd7690",
+                "changeset_revision": "a4774b7b2e85",
                 "name": "anndata_ops",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"true\", \"__current_case__\": 0, \"r_source\": {\"__class__\": \"ConnectedValue\"}}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"true\", \"__current_case__\": 0, \"xlayers\": [{\"__index__\": 0, \"x_source\": {\"__class__\": \"ConnectedValue\"}, \"dest\": \"filtered\"}, {\"__index__\": 1, \"x_source\": {\"__class__\": \"ConnectedValue\"}, \"dest\": \"normalised\"}]}, \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_state": "{\"add_cell_metadata\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"true\", \"__current_case__\": 0, \"r_source\": {\"__class__\": \"ConnectedValue\"}}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"true\", \"__current_case__\": 0, \"xlayers\": [{\"__index__\": 0, \"x_source\": {\"__class__\": \"ConnectedValue\"}, \"dest\": \"filtered\"}, {\"__index__\": 1, \"x_source\": {\"__class__\": \"ConnectedValue\"}, \"dest\": \"normalised\"}]}, \"field_unique\": \"\", \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"split_on_obs\": {\"default\": \"false\", \"__current_case__\": 1}, \"swap_layer_to_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "44f0271e-8637-45dd-94f4-50f403fa8429",
             "workflow_outputs": []
@@ -2003,8 +1930,8 @@
                 }
             ],
             "position": {
-                "left": 3651.34375,
-                "top": 822.828125
+                "left": 3651.4375,
+                "top": 822.890625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput": {
@@ -2050,8 +1977,8 @@
                 }
             ],
             "position": {
-                "left": 3407.828125,
-                "top": 1085.828125
+                "left": 3407.890625,
+                "top": 1085.90625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput": {
@@ -2074,7 +2001,7 @@
         },
         "41": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+2+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "errors": null,
             "id": 41,
             "input_connections": {
@@ -2097,8 +2024,8 @@
                 }
             ],
             "position": {
-                "left": 3788.578125,
-                "top": 80.515625
+                "left": 3788.671875,
+                "top": 80.59375
             },
             "post_job_actions": {
                 "HideDatasetActionoutput_h5ad": {
@@ -2114,22 +2041,22 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+2+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "52ee45fd7690",
+                "changeset_revision": "a4774b7b2e85",
                 "name": "anndata_ops",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"true\", \"__current_case__\": 0, \"xlayers\": [{\"__index__\": 0, \"x_source\": {\"__class__\": \"ConnectedValue\"}, \"dest\": \"log_normalised_unscaled\"}]}, \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+2+galaxy0",
+            "tool_state": "{\"add_cell_metadata\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"true\", \"__current_case__\": 0, \"xlayers\": [{\"__index__\": 0, \"x_source\": {\"__class__\": \"ConnectedValue\"}, \"dest\": \"log_normalised_unscaled\"}]}, \"field_unique\": \"\", \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"split_on_obs\": {\"default\": \"false\", \"__current_case__\": 1}, \"swap_layer_to_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "d58ef447-0dd7-4dd0-bc1f-aa85a663215e",
             "workflow_outputs": []
         },
         "42": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "errors": null,
             "id": 42,
             "input_connections": {
@@ -2152,8 +2079,8 @@
                 }
             ],
             "position": {
-                "left": 3678.296875,
-                "top": 1275.8125
+                "left": 3678.390625,
+                "top": 1275.859375
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -2167,22 +2094,22 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "890fb06a2893",
+                "changeset_revision": "a4774b7b2e85",
                 "name": "anndata_ops",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"true\", \"__current_case__\": 0, \"r_source\": {\"__class__\": \"ConnectedValue\"}}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"top_genes\": \"50\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+galaxy0",
+            "tool_state": "{\"add_cell_metadata\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"true\", \"__current_case__\": 0, \"r_source\": {\"__class__\": \"ConnectedValue\"}}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"field_unique\": null, \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"split_on_obs\": {\"default\": \"false\", \"__current_case__\": 1}, \"swap_layer_to_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "5b822bad-af30-4b99-a304-ff86e93618bd",
             "workflow_outputs": []
         },
         "43": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+galaxy9",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "errors": null,
             "id": 43,
             "input_connections": {
@@ -2205,8 +2132,8 @@
                 }
             ],
             "position": {
-                "left": 4100.578125,
-                "top": 114.578125
+                "left": 4100.671875,
+                "top": 114.65625
             },
             "post_job_actions": {
                 "HideDatasetActionoutput_h5ad": {
@@ -2222,22 +2149,22 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+galaxy9",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "825dfd66e3fb",
+                "changeset_revision": "a4774b7b2e85",
                 "name": "anndata_ops",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"true\", \"__current_case__\": 0, \"embedding_keys\": [{\"__index__\": 0, \"contains\": \"tsne\"}], \"embedding_sources\": {\"__class__\": \"ConnectedValue\"}}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"field_unique\": \"\", \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+galaxy9",
+            "tool_state": "{\"add_cell_metadata\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"true\", \"__current_case__\": 0, \"embedding_keys\": [{\"__index__\": 0, \"contains\": \"tsne\"}], \"embedding_sources\": {\"__class__\": \"ConnectedValue\"}}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"field_unique\": \"\", \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"split_on_obs\": {\"default\": \"false\", \"__current_case__\": 1}, \"swap_layer_to_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "dd187a1a-7873-488c-8547-658555129a36",
             "workflow_outputs": []
         },
         "44": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_markers/scanpy_find_markers/1.8.1+galaxy0",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_markers/scanpy_find_markers/1.9.3+galaxy0",
             "errors": null,
             "id": 44,
             "input_connections": {
@@ -2264,8 +2191,8 @@
                 }
             ],
             "position": {
-                "left": 3956.328125,
-                "top": 1418.828125
+                "left": 3956.421875,
+                "top": 1418.875
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput_h5ad": {
@@ -2286,28 +2213,28 @@
                     "output_name": "output_tsv"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_markers/scanpy_find_markers/1.8.1+galaxy0",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_find_markers/scanpy_find_markers/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "49653e680ea4",
+                "changeset_revision": "d8f5224005bb",
                 "name": "scanpy_find_markers",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"groupby\": \"INPUT_OBJ\", \"groupby_file\": {\"__class__\": \"ConnectedValue\"}, \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"n_genes\": \"100\", \"output_format\": \"anndata_h5ad\", \"output_markers\": \"true\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"key_added\": \"markers_GROUPBY\", \"method\": \"wilcoxon\", \"use_raw\": \"true\", \"rankby_abs\": \"false\", \"groups\": \"\", \"reference\": \"rest\", \"min_in_group_fraction\": \"0.0\", \"max_out_group_fraction\": \"1.0\", \"min_fold_change\": \"1.0\", \"pts\": \"false\", \"tie_correct\": \"false\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+galaxy0",
+            "tool_state": "{\"groupby\": \"INPUT_OBJ\", \"groupby_file\": {\"__class__\": \"ConnectedValue\"}, \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"n_genes\": \"100\", \"output_format\": \"anndata_h5ad\", \"output_markers\": \"true\", \"settings\": {\"default\": \"false\", \"__current_case__\": 1, \"key_added\": \"markers_GROUPBY\", \"method\": \"wilcoxon\", \"use_raw\": \"true\", \"rankby_abs\": \"false\", \"groups\": \"\", \"reference\": \"rest\", \"filter\": {\"default\": \"false\", \"__current_case__\": 1, \"min_in_group_fraction\": \"0.0\", \"max_out_group_fraction\": \"1.0\", \"min_fold_change\": \"2.0\"}, \"layer\": \"\", \"pts\": \"false\", \"tie_correct\": \"false\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "fdfe2b36-a7c6-4d01-9db2-d6584be30bbb",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "output_tsv",
-                    "uuid": "55b40ecd-1783-431e-9ed2-cb954275872f"
+                    "uuid": "bfba8baf-39fb-4a6c-bab1-1566a5cb4e71"
                 }
             ]
         },
         "45": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+galaxy9",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "errors": null,
             "id": 45,
             "input_connections": {
@@ -2330,8 +2257,8 @@
                 }
             ],
             "position": {
-                "left": 4255.109375,
-                "top": 577.328125
+                "left": 4255.203125,
+                "top": 577.375
             },
             "post_job_actions": {
                 "HideDatasetActionoutput_h5ad": {
@@ -2347,15 +2274,15 @@
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+galaxy9",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "825dfd66e3fb",
+                "changeset_revision": "a4774b7b2e85",
                 "name": "anndata_ops",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"true\", \"__current_case__\": 0, \"embedding_keys\": [{\"__index__\": 0, \"contains\": \"umap\"}], \"embedding_sources\": {\"__class__\": \"ConnectedValue\"}}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"field_unique\": \"\", \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+galaxy9",
+            "tool_state": "{\"add_cell_metadata\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"true\", \"__current_case__\": 0, \"embedding_keys\": [{\"__index__\": 0, \"contains\": \"umap\"}], \"embedding_sources\": {\"__class__\": \"ConnectedValue\"}}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"field_unique\": \"\", \"gene_flags\": [], \"gene_symbols_field\": \"index\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"split_on_obs\": {\"default\": \"false\", \"__current_case__\": 1}, \"swap_layer_to_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "77bc1385-2827-4558-b555-3f45979d4b7e",
             "workflow_outputs": []
@@ -2381,8 +2308,8 @@
                 }
             ],
             "position": {
-                "left": 4225.328125,
-                "top": 929.828125
+                "left": 4225.421875,
+                "top": 929.890625
             },
             "post_job_actions": {
                 "DeleteIntermediatesActionoutput": {
@@ -2405,7 +2332,7 @@
         },
         "47": {
             "annotation": "",
-            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+galaxy92",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "errors": null,
             "id": 47,
             "input_connections": {
@@ -2445,39 +2372,39 @@
                 }
             ],
             "position": {
-                "left": 4519.09375,
-                "top": 854.84375
+                "left": 4519.1875,
+                "top": 854.921875
             },
             "post_job_actions": {
                 "RenameDatasetActionoutput_h5ad": {
                     "action_arguments": {
-                        "newname": "project.h5ad"
+                        "newname": "final_project.h5ad"
                     },
                     "action_type": "RenameDatasetAction",
                     "output_name": "output_h5ad"
                 }
             },
-            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+galaxy92",
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.9.3+galaxy0",
             "tool_shed_repository": {
-                "changeset_revision": "a0274bc43b7e",
+                "changeset_revision": "a4774b7b2e85",
                 "name": "anndata_ops",
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
             "tool_state": "{\"add_cell_metadata\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"true\", \"__current_case__\": 0, \"obs_keys\": [{\"__index__\": 0, \"contains\": \"louvain\"}], \"obs_sources\": {\"__class__\": \"RuntimeValue\"}}, \"copy_r\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"true\", \"__current_case__\": 0, \"uns_keys\": [{\"__index__\": 0, \"contains\": \"marker\"}], \"uns_sources\": {\"__class__\": \"RuntimeValue\"}}, \"copy_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"field_unique\": \"gene_symbols\", \"gene_flags\": [], \"gene_symbols_field\": \"gene_symbols\", \"input_obj_file\": {\"__class__\": \"RuntimeValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"split_on_obs\": {\"default\": \"false\", \"__current_case__\": 1}, \"swap_layer_to_x\": {\"default\": \"true\", \"__current_case__\": 0, \"layer\": \"log_normalised_unscaled\", \"new_name_x\": \"log_normalised_scaled_zero_centered\"}, \"top_genes\": \"50\", \"var_modifications\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-            "tool_version": "1.8.1+galaxy92",
+            "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "91bd3f1a-b81e-4682-a0e2-e6f0a2dbb1d2",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "output_h5ad",
-                    "uuid": "bce06388-71a5-4f23-ac45-de1401f597cd"
+                    "uuid": "a9838d28-e7a4-432d-b8d5-30a34b5a51e6"
                 }
             ]
         }
     },
     "tags": [],
-    "uuid": "8f23a683-3b2e-4bff-93f3-535d50a43c6b",
-    "version": 4
+    "uuid": "4f5d0ffa-608b-4618-bc0b-40dacff3bbfc",
+    "version": 11
 }
