@@ -304,6 +304,7 @@ tools:
   - 03e9b2fbc005
   - 0d4acadabb04
   - cd659e8cc5fa
+  - d5ceb9f3c25b
   - f6877ad76b00
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
