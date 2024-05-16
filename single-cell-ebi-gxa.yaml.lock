@@ -336,6 +336,7 @@ tools:
   - 478578da6fbf
   - 5663eb6b965c
   - 5c62f39aab8f
+  - 64dd8bb151e1
   - '710530217502'
   - 7558a3d8338e
   - 7793c8284aa5
@@ -872,6 +873,7 @@ tools:
   revisions:
   - 0c70a41fce6f
   - 2f9517a24c73
+  - 53ce0e336840
   - 70cb0596ffef
   - 79690871d700
   - 8ca3ab8300ce
