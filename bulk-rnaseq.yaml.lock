@@ -102,6 +102,7 @@ tools:
   - c5e2e5902201
   - de6cebe3c043
   - e4691e1589d3
+  - fe74900d6dc7
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: multiqc
