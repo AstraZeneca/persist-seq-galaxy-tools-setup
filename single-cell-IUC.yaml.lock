@@ -11,6 +11,7 @@ tools:
   - 9d33775ec67d
   - c5d3684f7c4c
   - e4c99c83dfbf
+  - f54f0f0598ad
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_plot
   owner: iuc
@@ -24,6 +25,7 @@ tools:
   - 9b0cdb8cf6be
   - aa0c474463c2
   - dbbe1ea8ecb1
+  - f7446fd8d5e7
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: anndata_manipulate
   owner: iuc
