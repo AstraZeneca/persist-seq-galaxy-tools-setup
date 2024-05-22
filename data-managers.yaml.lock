@@ -37,6 +37,7 @@ tools:
 - name: data_manager_kallisto_index_builder
   owner: iuc
   revisions:
+  - 15c2fc266540
   - 18e2dd472525
   - 4c7ebbad42cf
   - 6843a0db2da0
