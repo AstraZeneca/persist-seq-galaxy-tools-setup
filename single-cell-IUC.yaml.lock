@@ -10,6 +10,7 @@ tools:
   - 6c145a6868cc
   - 9d33775ec67d
   - c5d3684f7c4c
+  - ca086f24422f
   - e4c99c83dfbf
   - f54f0f0598ad
   tool_panel_section_id: hca_sc_scanpy_tools
@@ -18,6 +19,7 @@ tools:
   revisions:
   - 6adf98e782f3
   - 6f5349dd5c49
+  - 70fa84e99463
   - 7647e5cd1b8b
   - 8599fd07d140
   - 95777145cb92
