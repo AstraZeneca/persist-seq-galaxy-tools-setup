@@ -367,6 +367,7 @@ tools:
   owner: sigven
   revisions:
   - 023155e2e66c
+  - dc08c98bb28f
   tool_panel_section_label: Onco Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: volcanoplot
