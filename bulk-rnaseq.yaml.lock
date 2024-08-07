@@ -222,6 +222,7 @@ tools:
 - name: fastqc
   owner: devteam
   revisions:
+  - 2c64fded1286
   - 3d0c7bdf12f5
   - 3e1cdf5406db
   - 5ec9f6bceaee
@@ -368,6 +369,7 @@ tools:
   revisions:
   - 023155e2e66c
   - dc08c98bb28f
+  - e88c353e1d66
   tool_panel_section_label: Onco Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: volcanoplot
