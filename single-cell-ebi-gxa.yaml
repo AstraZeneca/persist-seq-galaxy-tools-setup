@@ -260,6 +260,18 @@ tools:
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_monocle3_tools'
 
+  - name: pyscenic_aucell
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_pyscenic_tools'
+
+  - name: pyscenic_grn
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_pyscenic_tools'
+
+  - name: pyscenic_ctx
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_pyscenic_tools'
+
   - name: run_sccaf
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_sccaf_tools'
