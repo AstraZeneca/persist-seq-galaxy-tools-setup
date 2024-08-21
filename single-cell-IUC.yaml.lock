@@ -9,6 +9,7 @@ tools:
   - 6bd82ed14acd
   - 6c145a6868cc
   - 9d33775ec67d
+  - c0a80a16560f
   - c5d3684f7c4c
   - ca086f24422f
   - e4c99c83dfbf
@@ -17,6 +18,7 @@ tools:
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 1072ce66b426
   - 6adf98e782f3
   - 6f5349dd5c49
   - 70fa84e99463
