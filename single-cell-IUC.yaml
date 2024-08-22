@@ -15,6 +15,10 @@ tools:
     owner: iuc
     tool_panel_section_id: 'hca_sc_scanpy_tools'
 
+  - name: infercnv
+    owner: iuc
+    tool_panel_section_id: 'hca_sc_cnv'
+
   - name: collection_element_identifiers
     owner: iuc
     tool_panel_section_id: 'collection_operations'
