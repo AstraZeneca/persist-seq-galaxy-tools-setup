@@ -1124,6 +1124,21 @@ tools:
   - 98f4918eee70
   - 9e59e242ed63
   tool_panel_section_id: hca_sc_monocle3_tools
+- name: pyscenic_aucell
+  owner: ebi-gxa
+  revisions:
+  - f408bd51bb59
+  tool_panel_section_id: hca_sc_pyscenic_tools
+- name: pyscenic_grn
+  owner: ebi-gxa
+  revisions:
+  - 95431f03a8fc
+  tool_panel_section_id: hca_sc_pyscenic_tools
+- name: pyscenic_ctx
+  owner: ebi-gxa
+  revisions:
+  - 931cd3661690
+  tool_panel_section_id: hca_sc_pyscenic_tools
 - name: run_sccaf
   owner: ebi-gxa
   revisions:

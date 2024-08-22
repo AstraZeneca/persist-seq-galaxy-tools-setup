@@ -47,6 +47,11 @@ tools:
   - 6f0d0c784f09
   - ee98d611afc6
   tool_panel_section_id: hca_sc_scanpy_tools
+- name: infercnv
+  owner: iuc
+  revisions:
+  - be7c0c692879
+  tool_panel_section_id: hca_sc_cnv
 - name: collection_element_identifiers
   owner: iuc
   revisions:
