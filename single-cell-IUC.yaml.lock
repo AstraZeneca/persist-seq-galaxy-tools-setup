@@ -51,6 +51,7 @@ tools:
   owner: iuc
   revisions:
   - be7c0c692879
+  - ddbace8f3277
   tool_panel_section_id: hca_sc_cnv
 - name: collection_element_identifiers
   owner: iuc
