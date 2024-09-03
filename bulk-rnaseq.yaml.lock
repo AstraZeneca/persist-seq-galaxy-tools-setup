@@ -119,6 +119,7 @@ tools:
   - bf675f34b056
   - c19b16e5729c
   - f7985e0479b9
+  - f7e2f1eb3a16
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hisat2
