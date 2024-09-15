@@ -1145,6 +1145,11 @@ tools:
   - 3ce4ff3b9f1b
   - 931cd3661690
   tool_panel_section_id: hca_sc_pyscenic_tools
+- name: pyscenic_binarize
+  owner: ebi-gxa
+  revisions:
+  - 31a8c822882f
+  tool_panel_section_id: hca_sc_pyscenic_tools
 - name: run_sccaf
   owner: ebi-gxa
   revisions:
