@@ -9,6 +9,7 @@ tools:
   - 68a2b5445558
   - 893ff9213a34
   - 93f61ea19336
+  - bd4b54b75888
   - ed2a77422e00
   - f321c60167d4
   tool_panel_section_id: hca_sc_decoupler
@@ -17,6 +18,7 @@ tools:
   revisions:
   - 1e8697931d73
   - 515ac51db6e5
+  - a33eb7d3b053
   - c700f0381e84
   - c9aaac87c583
   - e024d8280886
@@ -25,6 +27,7 @@ tools:
 - name: decoupler_pathway_inference
   owner: ebi-gxa
   revisions:
+  - 6c30272fb587
   - 77d680b36e23
   - 82b7cd3e1bbd
   - c6787c2aee46
@@ -1127,17 +1130,24 @@ tools:
 - name: pyscenic_aucell
   owner: ebi-gxa
   revisions:
+  - 3192e6fb85a6
   - f408bd51bb59
   tool_panel_section_id: hca_sc_pyscenic_tools
 - name: pyscenic_grn
   owner: ebi-gxa
   revisions:
   - 95431f03a8fc
+  - c1207fb29b08
   tool_panel_section_id: hca_sc_pyscenic_tools
 - name: pyscenic_ctx
   owner: ebi-gxa
   revisions:
+  - 3ce4ff3b9f1b
   - 931cd3661690
+  tool_panel_section_id: hca_sc_pyscenic_tools
+- name: pyscenic_binarize_aucell
+  owner: ebi-gxa
+  revisions: []
   tool_panel_section_id: hca_sc_pyscenic_tools
 - name: run_sccaf
   owner: ebi-gxa
