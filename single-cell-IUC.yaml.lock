@@ -3,6 +3,7 @@ tools:
   owner: iuc
   revisions:
   - 08192eebb47d
+  - 18262103fa61
   - 3081ff5c84a3
   - 5c3ebe2adc77
   - 5e9171dc8244
@@ -19,6 +20,7 @@ tools:
   owner: iuc
   revisions:
   - 1072ce66b426
+  - 2dfb2227a16c
   - 6adf98e782f3
   - 6f5349dd5c49
   - 70fa84e99463
@@ -36,6 +38,7 @@ tools:
   revisions:
   - 3d748954434b
   - 43cb7b5a6fe7
+  - 7e8c677a7b71
   - 8db95f488f0f
   - b85871dd69f9
   - ed4996a16f7f
@@ -43,6 +46,7 @@ tools:
 - name: anndata_inspect
   owner: iuc
   revisions:
+  - 0bf7fddf90c7
   - 383dcb0500f9
   - 6f0d0c784f09
   - ee98d611afc6
