@@ -13,12 +13,14 @@ tools:
   - c0a80a16560f
   - c5d3684f7c4c
   - ca086f24422f
+  - d1cd8c147809
   - e4c99c83dfbf
   - f54f0f0598ad
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 0185bd174ea0
   - 1072ce66b426
   - 2dfb2227a16c
   - 6adf98e782f3
