@@ -5,4 +5,10 @@ tools:
   - name: ega_download_client
     owner: iuc
     tool_panel_section_label: 'Get Data'
+  - name: ggupset
+    owner: iuc
+    tool_panel_section_label: 'Graph/Display Data'
+  - name: intervene
+    owner: iuc
+    tool_panel_section_label: 'Graph/Display Data'
     
