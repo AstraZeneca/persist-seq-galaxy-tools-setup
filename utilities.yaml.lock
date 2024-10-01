@@ -15,3 +15,13 @@ tools:
   - e82175804eb1
   - f9db47f68e5e
   tool_panel_section_label: Get Data
+- name: ggupset
+  owner: iuc
+  revisions:
+  - f005c350af7f
+  tool_panel_section_label: Graph/Display Data
+- name: intervene
+  owner: iuc
+  revisions:
+  - 21beb30956c2
+  tool_panel_section_label: Graph/Display Data
