@@ -15,6 +15,7 @@ tools:
   - c5d3684f7c4c
   - ca086f24422f
   - d1cd8c147809
+  - d86cb2ce311b
   - e4c99c83dfbf
   - f54f0f0598ad
   tool_panel_section_id: hca_sc_scanpy_tools
@@ -25,6 +26,7 @@ tools:
   - 1072ce66b426
   - 2dfb2227a16c
   - 40812a65a78b
+  - 62acdd96d4a0
   - 6adf98e782f3
   - 6f5349dd5c49
   - 70fa84e99463
