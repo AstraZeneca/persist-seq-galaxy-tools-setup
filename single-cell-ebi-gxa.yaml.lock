@@ -7,6 +7,7 @@ tools:
   - 4fa5f370599f
   - 59a7f3f83aec
   - 68a2b5445558
+  - 70a5c6f2408d
   - 893ff9213a34
   - 93f61ea19336
   - bd4b54b75888
@@ -18,6 +19,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 1e8697931d73
+  - 3c18dda2ea3f
   - 515ac51db6e5
   - 617e50767215
   - a33eb7d3b053
@@ -29,6 +31,7 @@ tools:
 - name: decoupler_pathway_inference
   owner: ebi-gxa
   revisions:
+  - 1d140c4a5875
   - 6c30272fb587
   - 77d680b36e23
   - 82b7cd3e1bbd
