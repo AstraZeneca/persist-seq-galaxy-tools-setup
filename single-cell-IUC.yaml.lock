@@ -47,12 +47,14 @@ tools:
   - 7e8c677a7b71
   - 8db95f488f0f
   - b85871dd69f9
+  - c4209ea387d4
   - ed4996a16f7f
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: anndata_inspect
   owner: iuc
   revisions:
   - 0bf7fddf90c7
+  - 14c576ea6148
   - 383dcb0500f9
   - 6f0d0c784f09
   - ee98d611afc6
