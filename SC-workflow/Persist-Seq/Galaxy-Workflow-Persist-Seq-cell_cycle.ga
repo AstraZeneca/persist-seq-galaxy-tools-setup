@@ -14,7 +14,7 @@
         }
     ],
     "format-version": "0.1",
-    "name": "Persist-Seq v0.3.7",
+    "name": "Persist-Seq v0.4.0",
     "steps": {
         "0": {
             "annotation": "",
