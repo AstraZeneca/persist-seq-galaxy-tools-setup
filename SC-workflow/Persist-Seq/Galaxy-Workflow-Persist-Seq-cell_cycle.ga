@@ -1,6 +1,6 @@
 {
     "a_galaxy_workflow": "true",
-    "annotation": "Persist-Seq v0.3.7, Scanpy 1.9.3 (cell cycle)",
+    "annotation": "Persist-Seq v0.4.0, Scanpy 1.9.3 (cell cycle)",
     "creator": [
         {
             "class": "Person",
