@@ -11,6 +11,11 @@
             "class": "Person",
             "identifier": "0000-0002-9856-1679",
             "name": "Pablo Moreno"
+        },
+        {
+            "class": "Person",
+            "identifier": "0000-0002-8941-444X",
+            "name": "Anil Thanki"
         }
     ],
     "format-version": "0.1",
@@ -136,7 +141,7 @@
             "name": "Input dataset",
             "outputs": [],
             "position": {
-                "left": 0,
+                "left": 0.0,
                 "top": 504.546875
             },
             "tool_id": null,
@@ -740,7 +745,7 @@
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"categories\": [], \"export_mtx\": \"true\", \"force_recalc\": \"false\", \"gene_name\": \"gene_symbols\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"parameters\": [{\"__index__\": 0, \"name\": \"n_counts\", \"min\": \"30.0\", \"max\": \"1000000000.0\"}, {\"__index__\": 1, \"name\": \"pct_counts_mito\", \"min\": \"0.0\", \"max\": \"35.0\"}], \"save_layer\": \"\", \"save_raw\": \"false\", \"subsets\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_state": "{\"categories\": [], \"export_mtx\": \"true\", \"force_recalc\": \"false\", \"gene_name\": \"gene_symbols\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"parameters\": [{\"__index__\": 0, \"name\": \"n_genes\", \"min\": \"30.0\", \"max\": \"1000000000.0\"}, {\"__index__\": 1, \"name\": \"pct_counts_mito\", \"min\": \"0.0\", \"max\": \"35.0\"}], \"save_layer\": \"\", \"save_raw\": \"false\", \"subsets\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "3386b553-02ec-46a4-a78a-46a0a39a2b3b",
@@ -806,14 +811,6 @@
             "errors": null,
             "id": 21,
             "input_connections": {
-                "categories_0|name": {
-                    "id": 7,
-                    "output_name": "output"
-                },
-                "categories_0|values": {
-                    "id": 8,
-                    "output_name": "output"
-                },
                 "input_obj_file": {
                     "id": 19,
                     "output_name": "output_h5ad"
@@ -850,6 +847,21 @@
                     "action_type": "DeleteIntermediatesAction",
                     "output_name": "output_h5ad"
                 },
+                "HideDatasetActionbarcodes_10x": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "barcodes_10x"
+                },
+                "HideDatasetActiongenes_10x": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "genes_10x"
+                },
+                "HideDatasetActionmatrix_10x": {
+                    "action_arguments": {},
+                    "action_type": "HideDatasetAction",
+                    "output_name": "matrix_10x"
+                },
                 "HideDatasetActionoutput_h5ad": {
                     "action_arguments": {},
                     "action_type": "HideDatasetAction",
@@ -884,27 +896,11 @@
                 "owner": "ebi-gxa",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"categories\": [{\"__index__\": 0, \"name\": {\"__class__\": \"ConnectedValue\"}, \"values\": {\"__class__\": \"ConnectedValue\"}, \"negate\": \"true\"}], \"export_mtx\": \"true\", \"force_recalc\": \"false\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"parameters\": [{\"__index__\": 0, \"name\": \"n_cells\", \"min\": \"10.0\", \"max\": \"1000000000.0\"}], \"save_layer\": \"\", \"save_raw\": \"false\", \"subsets\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_state": "{\"categories\": [], \"export_mtx\": \"true\", \"force_recalc\": \"false\", \"input_format\": \"anndata\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"parameters\": [{\"__index__\": 0, \"name\": \"n_cells\", \"min\": \"10.0\", \"max\": \"1000000000.0\"}], \"save_layer\": \"\", \"save_raw\": \"false\", \"subsets\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "1.9.3+galaxy0",
             "type": "tool",
             "uuid": "a60fd207-ee87-4798-adfb-cc626816ab8b",
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "barcodes_10x",
-                    "uuid": "8bac4b79-d7df-4452-9ebf-0c4b8690e581"
-                },
-                {
-                    "label": null,
-                    "output_name": "genes_10x",
-                    "uuid": "b7cfbfe4-2354-40df-99a8-4730391563f0"
-                },
-                {
-                    "label": null,
-                    "output_name": "matrix_10x",
-                    "uuid": "d85ef13e-99c6-48f2-9f81-5cdfcd08486d"
-                }
-            ]
+            "workflow_outputs": []
         },
         "22": {
             "annotation": "",
@@ -1007,7 +1003,7 @@
                 {
                     "label": "Scanpy Plot Scrublet on input dataset(s): Scrublet plot",
                     "output_name": "output_png",
-                    "uuid": "3197b84e-41a6-4b3b-a344-3ea88c3052cb"
+                    "uuid": "1fb28d95-ecfd-4d5d-944b-e3b3217f83ed"
                 }
             ]
         },
@@ -1178,18 +1174,18 @@
             "workflow_outputs": [
                 {
                     "label": null,
+                    "output_name": "matrix_10x",
+                    "uuid": "f6549ceb-4cad-4f32-a452-029c57d22635"
+                },
+                {
+                    "label": null,
                     "output_name": "genes_10x",
-                    "uuid": "16ef1133-60e4-49d6-90ae-361b8d420222"
+                    "uuid": "a77a2ed6-b3bc-4523-8f59-ac1684e7aa1f"
                 },
                 {
                     "label": null,
                     "output_name": "barcodes_10x",
-                    "uuid": "4c8e4d0d-cdc9-41b3-8ea7-12af05c3b615"
-                },
-                {
-                    "label": null,
-                    "output_name": "matrix_10x",
-                    "uuid": "fff38172-6529-4380-b5fa-bd665ed16454"
+                    "uuid": "865677ec-263b-4093-8742-d4fc2c4bb5b7"
                 }
             ]
         },
@@ -1325,18 +1321,18 @@
             "workflow_outputs": [
                 {
                     "label": null,
+                    "output_name": "matrix_10x",
+                    "uuid": "68e417f4-5908-4e88-92d7-4a566fc514e7"
+                },
+                {
+                    "label": null,
                     "output_name": "barcodes_10x",
-                    "uuid": "59136efe-0d32-4b92-bc0d-13b1df82d4e1"
+                    "uuid": "91a42e4a-d99b-400f-902e-db9360ab68ff"
                 },
                 {
                     "label": null,
                     "output_name": "genes_10x",
-                    "uuid": "c427b812-1d49-4748-b20c-ebe1c54829c5"
-                },
-                {
-                    "label": null,
-                    "output_name": "matrix_10x",
-                    "uuid": "19be9a6f-9dc5-4605-8895-414bd67bca4e"
+                    "uuid": "fcf690e1-4e5d-47e6-8e25-73a189e877e9"
                 }
             ]
         },
@@ -1673,7 +1669,7 @@
                 {
                     "label": null,
                     "output_name": "output_embed",
-                    "uuid": "dfa1f4eb-5910-40e7-9e45-d9bcc38f6cf1"
+                    "uuid": "7d0708ca-c16b-4ff7-9d12-25ed6369d2c0"
                 }
             ]
         },
@@ -1904,7 +1900,7 @@
                 {
                     "label": null,
                     "output_name": "output_embed",
-                    "uuid": "ed86d363-1b3f-4012-9bab-37ce9fa63a9e"
+                    "uuid": "529d94e8-f9d5-445e-aa7f-8d97aee17745"
                 }
             ]
         },
@@ -2024,7 +2020,7 @@
                 {
                     "label": null,
                     "output_name": "output_txt",
-                    "uuid": "da96b315-3d0f-433b-a517-52c07021c0f5"
+                    "uuid": "b4a5fddc-6174-44f9-9fab-c521472aceec"
                 }
             ]
         },
@@ -2410,7 +2406,7 @@
                 {
                     "label": null,
                     "output_name": "output_tsv",
-                    "uuid": "3bb131d7-f6f2-41e1-9db5-7165a63afee9"
+                    "uuid": "98e51399-7efa-4ea8-b9b2-a484cc52bdbd"
                 }
             ]
         },
@@ -2568,12 +2564,12 @@
                 {
                     "label": null,
                     "output_name": "output_h5ad",
-                    "uuid": "1925c835-c5e9-4144-ae3e-2a996d0400ee"
+                    "uuid": "1c1cbd08-8999-4ec3-b936-8a5ddbbc972e"
                 }
             ]
         }
     },
     "tags": [],
-    "uuid": "a4748dfd-20f8-4972-890a-2ac1b0d2d64b",
-    "version": 3
+    "uuid": "8c6ebec5-9c60-4b78-b3a3-dd1007130744",
+    "version": 7
 }
