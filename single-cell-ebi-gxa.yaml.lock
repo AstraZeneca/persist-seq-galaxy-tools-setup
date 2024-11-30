@@ -3,6 +3,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 046d8ff974ff
+  - 09c833d9b03b
   - 130e25d3ce92
   - 4fa5f370599f
   - 59a7f3f83aec
@@ -24,6 +25,7 @@ tools:
   - 3c18dda2ea3f
   - 515ac51db6e5
   - 5c6d29c3a141
+  - 60ca413621a8
   - 617e50767215
   - 8a9c173645d2
   - a33eb7d3b053
@@ -42,6 +44,7 @@ tools:
   - 81ccee273bc6
   - 82b7cd3e1bbd
   - 87f1eaa410cc
+  - 97c2c52a7ab4
   - c6787c2aee46
   - e9b06a8fb73a
   tool_panel_section_id: hca_sc_decoupler
