@@ -5,6 +5,7 @@ tools:
   - 115f3e61b012
   - 1586b111d2a3
   - 1c0f8e9d87c6
+  - 39865c64a4e1
   - 76672b83d42d
   - 847c9ef56a52
   - 9dd107db92c2
@@ -15,6 +16,7 @@ tools:
   owner: devteam
   revisions:
   - 14eb0fc65c62
+  - 4a82d1157b14
   - 4d3eff1bc421
   - b1bc53e9bbc5
   tool_panel_section_label: None
@@ -76,6 +78,7 @@ tools:
   - 64deddb6a8ec
   - 6c6c6df09e64
   - 6ef6520f14fc
+  - 71c994a11f71
   - a225487bf618
   - c520a52b5174
   - d3879aceba04
