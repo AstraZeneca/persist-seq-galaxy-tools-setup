@@ -1,4 +1,9 @@
 tools:
+- name: celltypist_predict
+  owner: ebi-gxa
+  revisions:
+  - a7d6985ba791
+  tool_panel_section_id: hca_sc_label_analysis_tools
 - name: decoupler_pseudobulk
   owner: ebi-gxa
   revisions:
