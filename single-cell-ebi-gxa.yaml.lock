@@ -3,6 +3,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - a7d6985ba791
+  - df005630100e
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: decoupler_pseudobulk
   owner: ebi-gxa
@@ -11,6 +12,7 @@ tools:
   - 09c833d9b03b
   - 130e25d3ce92
   - 4fa5f370599f
+  - 508a93e34599
   - 59a7f3f83aec
   - 68a2b5445558
   - 70a5c6f2408d
@@ -30,6 +32,7 @@ tools:
   - 3c18dda2ea3f
   - 515ac51db6e5
   - 5c6d29c3a141
+  - 5fd02ed1b020
   - 60ca413621a8
   - 617e50767215
   - 8a9c173645d2
@@ -51,6 +54,7 @@ tools:
   - 87f1eaa410cc
   - 97c2c52a7ab4
   - c6787c2aee46
+  - db14ac3f6b43
   - e9b06a8fb73a
   tool_panel_section_id: hca_sc_decoupler
 - name: dropletutils_read_10x
