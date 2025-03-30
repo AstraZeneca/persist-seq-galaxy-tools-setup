@@ -49,6 +49,7 @@ tools:
   - 7e8c677a7b71
   - 8db95f488f0f
   - b85871dd69f9
+  - be1fdce914c6
   - c4209ea387d4
   - d1e49c3c0aa2
   - ed4996a16f7f
@@ -61,6 +62,7 @@ tools:
   - 33c0081e16c6
   - 383dcb0500f9
   - 6f0d0c784f09
+  - afe044e6bc93
   - ee98d611afc6
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: infercnv
