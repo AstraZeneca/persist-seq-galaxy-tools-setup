@@ -4,6 +4,7 @@ tools:
   revisions:
   - 08192eebb47d
   - 18262103fa61
+  - 27c054e8d949
   - 3081ff5c84a3
   - 3b5ef3b00cdd
   - 4338bf96809e
@@ -25,6 +26,7 @@ tools:
   revisions:
   - 0185bd174ea0
   - 1072ce66b426
+  - 16a1c3122996
   - 2dfb2227a16c
   - 40812a65a78b
   - 5a5468c0d26f
@@ -52,6 +54,7 @@ tools:
   - be1fdce914c6
   - c4209ea387d4
   - d1e49c3c0aa2
+  - e6a8d5fdca85
   - ed4996a16f7f
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: anndata_inspect
@@ -62,6 +65,7 @@ tools:
   - 33c0081e16c6
   - 383dcb0500f9
   - 6f0d0c784f09
+  - 9301df6f892d
   - afe044e6bc93
   - ee98d611afc6
   tool_panel_section_id: hca_sc_scanpy_tools

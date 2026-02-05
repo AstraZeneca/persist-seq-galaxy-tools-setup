@@ -6,6 +6,7 @@ tools:
   - 1586b111d2a3
   - 1c0f8e9d87c6
   - 39865c64a4e1
+  - 6754002631cd
   - 76672b83d42d
   - 847c9ef56a52
   - 9dd107db92c2
@@ -34,6 +35,7 @@ tools:
   - a04cebcd77f4
   - d210e1f185bd
   - d74c740bdb25
+  - e4f36467bb51
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_kallisto_index_builder
@@ -64,6 +66,7 @@ tools:
   - 57274fe5e01a
   - 6437fc47878f
   - 6b0f2bdcc1b7
+  - d31d59516633
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_sortmerna_database_downloader

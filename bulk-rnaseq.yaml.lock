@@ -21,6 +21,7 @@ tools:
   - d79ed3ec25fe
   - df0c8d0a5992
   - f2843df56434
+  - fd9902d118e5
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: limma_voom
@@ -46,6 +47,7 @@ tools:
   revisions:
   - 0696db066a5b
   - 6a3a025714d3
+  - 6c363db8c702
   - 71bacea10eee
   - 7ff33c2d525b
   - 8fe98f7094de
@@ -70,6 +72,7 @@ tools:
   owner: bgruening
   revisions:
   - 15cd64d7c58b
+  - 30d90b851d3c
   - 49121db48873
   - 6b0ba6de1424
   - 7fdb9d1591e2
@@ -97,6 +100,7 @@ tools:
   - 660cffd8d92a
   - 80766b36005d
   - 8c0175e03cee
+  - 8e264b67a8c0
   - 944ae523bacb
   - 9845c649f41b
   - aa784cb3810d
@@ -113,6 +117,7 @@ tools:
 - name: multiqc
   owner: iuc
   revisions:
+  - 26ee5e11ecbe
   - 31c42a2c02d3
   - 3d93dd18d9f8
   - 5e33b465d8d5
@@ -138,6 +143,7 @@ tools:
   - 61ee47027bd3
   - 6c19daec423d
   - a86e80d3c09c
+  - b12d81af0291
   - d4b55e2beb12
   - f4af63aaf57a
   tool_panel_section_label: RNA-Seq
@@ -282,6 +288,7 @@ tools:
   - 6073bb457ec0
   - 86755160afbf
   - 9ff72e942410
+  - ab83aa685821
   - c41d78ae5fee
   - d698c222f354
   - ddf54b12c295
@@ -333,6 +340,7 @@ tools:
   - cd659e8cc5fa
   - d5ceb9f3c25b
   - f6877ad76b00
+  - f76cbb84d67f
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_refgenie_pull
@@ -374,6 +382,7 @@ tools:
   - 32dc5f781059
   - 48bbbcb692ce
   - 5826298f6a73
+  - 5ec526530725
   - 6be888be75f9
   tool_panel_section_label: SAM/BAM
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -407,5 +416,6 @@ tools:
   - 99ace6c1ff57
   - a363ba287b88
   - ab01e379d29e
+  - e4790edb4299
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
