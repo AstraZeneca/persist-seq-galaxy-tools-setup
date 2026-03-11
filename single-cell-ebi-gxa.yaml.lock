@@ -1638,4 +1638,5 @@ tools:
   owner: bgruening
   revisions:
   - 6c6d26ff01ff
+  - dcc6bb900eee
   tool_panel_section_id: textutil
