@@ -74,6 +74,7 @@ tools:
   revisions:
   - be7c0c692879
   - ddbace8f3277
+  - f8fc750bf8c3
   tool_panel_section_id: hca_sc_cnv
 - name: collection_element_identifiers
   owner: iuc
