@@ -68,6 +68,7 @@ tools:
   - 4f9c4e6566e5
   - 60f888039fb2
   - c971db6f0fe5
+  - f71c54748ff2
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: salmon
@@ -219,6 +220,7 @@ tools:
   - c772497b2c32
   - c7c55b694974
   - d5659efd66aa
+  - d8d32326fbfb
   - de21b616f03a
   - e132e7d02a3e
   tool_panel_section_label: RNA-Seq
@@ -232,6 +234,7 @@ tools:
   - 87c11c05d238
   - a157781cddd7
   - ce5d418183c5
+  - fce88d02de6c
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rmarkdown_wgcna
