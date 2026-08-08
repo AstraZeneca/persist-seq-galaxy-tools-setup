@@ -157,6 +157,7 @@ tools:
   - a86e80d3c09c
   - b12d81af0291
   - d4b55e2beb12
+  - eaa10652acc2
   - f4af63aaf57a
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -230,6 +231,7 @@ tools:
   revisions:
   - 01247aaf0a10
   - 1c75aa5de15e
+  - 3741c4204eb5
   - 5ae5c312d718
   - 87c11c05d238
   - a157781cddd7
