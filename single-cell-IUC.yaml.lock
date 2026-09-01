@@ -49,6 +49,7 @@ tools:
   owner: iuc
   revisions:
   - 3d748954434b
+  - 417dc257dbbd
   - 43cb7b5a6fe7
   - 7e8c677a7b71
   - 8db95f488f0f
@@ -73,6 +74,7 @@ tools:
   - a54b3bac44aa
   - afe044e6bc93
   - b26b87f5a13c
+  - c44398de972f
   - ee98d611afc6
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: infercnv
