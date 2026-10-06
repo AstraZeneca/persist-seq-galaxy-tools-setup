@@ -256,6 +256,7 @@ tools:
   - 7f5a8d427b39
   - 8f6836089479
   - 916cb26bd9d3
+  - c5a9d57d7eb1
   - fb117b3ee99a
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
