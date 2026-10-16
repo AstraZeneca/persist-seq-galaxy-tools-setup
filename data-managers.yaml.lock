@@ -19,6 +19,7 @@ tools:
   - 14eb0fc65c62
   - 4a82d1157b14
   - 4d3eff1bc421
+  - 7e9b2f60c9e1
   - b1bc53e9bbc5
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
