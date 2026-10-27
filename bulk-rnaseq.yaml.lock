@@ -34,6 +34,7 @@ tools:
   - 58c35179ebf0
   - 708348a17fa1
   - d6f5fa4ee473
+  - df0082f25f47
   - e827f9aae031
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -69,6 +70,7 @@ tools:
   - 40985510cd98
   - 4f9c4e6566e5
   - 60f888039fb2
+  - a2b65af988d2
   - c971db6f0fe5
   - f71c54748ff2
   tool_panel_section_label: RNA-Seq
@@ -217,6 +219,7 @@ tools:
   - 53255f6eecfc
   - 55c9ac3aa8f4
   - 5ec75f5dae3c
+  - 6e8618432bea
   - 79de45b5069b
   - 7ed2edc1337f
   - 850f3679b9b4
@@ -243,6 +246,7 @@ tools:
   - 87c11c05d238
   - a157781cddd7
   - ce5d418183c5
+  - e4eb8c4a82f6
   - fce88d02de6c
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -333,6 +337,7 @@ tools:
   - 27e16a30667a
   - 473382134e56
   - 5968573462fa
+  - 5bc075714a8b
   - dbedfc5f5a3c
   - f437057e46f1
   tool_panel_section_label: RNA-Seq
