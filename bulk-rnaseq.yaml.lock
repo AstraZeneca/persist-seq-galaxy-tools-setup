@@ -120,6 +120,7 @@ tools:
   - c4b82dce8335
   - c5e2e5902201
   - de6cebe3c043
+  - e075c7e866d1
   - e4691e1589d3
   - f6168dd17f82
   - fe74900d6dc7
@@ -263,6 +264,7 @@ tools:
   - 4418229c501e
   - 67b0b160903a
   - 7f5a8d427b39
+  - 8332c892bd72
   - 8f6836089479
   - 916cb26bd9d3
   - c5a9d57d7eb1
@@ -282,6 +284,7 @@ tools:
 - name: featurecounts
   owner: iuc
   revisions:
+  - 11a7f9b9cfe1
   - 1b851f87fbe0
   - 30f6985f0ac7
   - 37d067694d40
