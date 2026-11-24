@@ -23,6 +23,7 @@ tools:
   - d1cd8c147809
   - d86cb2ce311b
   - e4c99c83dfbf
+  - f096e702f7d4
   - f54f0f0598ad
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_plot
@@ -32,6 +33,7 @@ tools:
   - 1072ce66b426
   - 16a1c3122996
   - 2dfb2227a16c
+  - 3560333de511
   - 40812a65a78b
   - 5a5468c0d26f
   - 62acdd96d4a0
