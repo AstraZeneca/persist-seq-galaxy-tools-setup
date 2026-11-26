@@ -59,6 +59,7 @@ tools:
   - 3d748954434b
   - 417dc257dbbd
   - 43cb7b5a6fe7
+  - 4f52a1835164
   - 637e50759b72
   - 7e8c677a7b71
   - 8db95f488f0f
@@ -80,6 +81,7 @@ tools:
   - 383dcb0500f9
   - 3a9aee9e3551
   - 6f0d0c784f09
+  - 8d71879034eb
   - 9301df6f892d
   - a54b3bac44aa
   - afe044e6bc93
@@ -91,6 +93,7 @@ tools:
   owner: iuc
   revisions:
   - be7c0c692879
+  - d1b55b40751f
   - ddbace8f3277
   - f8fc750bf8c3
   tool_panel_section_id: hca_sc_cnv
